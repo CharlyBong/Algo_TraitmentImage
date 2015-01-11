@@ -1,0 +1,7 @@
+<map id="calculDistance" name="calculDistance">
+<area shape="rect" id="node2" href="$_caldist_8c.html#a6666598676080036d2f11e3fad54f2b0" title="Copie une matrice. " alt="" coords="160,5,256,32"/>
+<area shape="rect" id="node4" href="$_caldist_8c.html#ac122956f44b6acde5f27e0b3b9bd957f" title="Calcul le minimum entre cinq nombres. " alt="" coords="169,56,247,83"/>
+<area shape="rect" id="node5" href="$_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b" title="Calcul le minimum entre deux nombres. " alt="" coords="329,107,399,133"/>
+<area shape="rect" id="node6" href="$_caldist_8c.html#af97439a39d7834efdf9efa7b02e7fd09" title="Calcul le minimum entre quatre nombres. " alt="" coords="169,157,247,184"/>
+<area shape="rect" id="node3" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg. " alt="" coords="304,5,424,32"/>
+</map>

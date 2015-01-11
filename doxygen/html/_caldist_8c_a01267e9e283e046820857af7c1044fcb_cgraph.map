@@ -1,0 +1,10 @@
+<map id="fctCalculDistance" name="fctCalculDistance">
+<area shape="rect" id="node2" href="$partie1_8c.html#ad54b1a3721410441e15f0f5b76e77bf6" title="Seuil une matrice. " alt="" coords="187,5,279,32"/>
+<area shape="rect" id="node3" href="$partie1_8c.html#ae9d263fb9a2d9931bcfdc4fa877286a2" title="Retour le negatif d&#39;une matrice. " alt="" coords="176,56,291,83"/>
+<area shape="rect" id="node4" href="$_caldist_8c.html#a68194757508adc5f0ed956fd55c364b2" title="Calcul la distance entre des pixel de couleur différente. " alt="" coords="180,107,287,133"/>
+<area shape="rect" id="node5" href="$_caldist_8c.html#a6666598676080036d2f11e3fad54f2b0" title="Copie une matrice. " alt="" coords="339,31,435,57"/>
+<area shape="rect" id="node7" href="$_caldist_8c.html#ac122956f44b6acde5f27e0b3b9bd957f" title="Calcul le minimum entre cinq nombres. " alt="" coords="347,81,426,108"/>
+<area shape="rect" id="node8" href="$_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b" title="Calcul le minimum entre deux nombres. " alt="" coords="507,132,578,159"/>
+<area shape="rect" id="node9" href="$_caldist_8c.html#af97439a39d7834efdf9efa7b02e7fd09" title="Calcul le minimum entre quatre nombres. " alt="" coords="347,183,426,209"/>
+<area shape="rect" id="node6" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg. " alt="" coords="483,31,603,57"/>
+</map>

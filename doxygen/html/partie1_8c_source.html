@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Projet - Traitement d&#39;une image BMP:  Fichier source de D:/Mes Documents/CIR3/Algo/miniprojet-arbre/partie1.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet - Traitement d&#39;une image BMP
+   &#160;<span id="projectnumber">0.5.0</span>
+   </div>
+   <div id="projectbrief">Bongiorno Charles Cir_3</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('partie1_8c_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">D:/Mes Documents/CIR3/Algo/miniprojet-arbre/partie1.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="partie1_8c.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="prototype_8h.html">prototype.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="prototype_8h.html#aa4867e7efaa5f6922b0da87779abdf4a">   26</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="partie1_8c.html#aa4867e7efaa5f6922b0da87779abdf4a">cree3matrices</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *img,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceR,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceG,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceB){</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> i,j,cas;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    cas=0;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">for</span>(i=0;i &lt; img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#a552bde5ac3af39a98c616c21d04eaa9c">hauteurImage</a>;i++){</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">for</span>(j=0;j &lt; img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#abec644be857ad039bf21dbe4e025cd8e">largeurImage</a>;j++){</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            matriceB[i][j] = img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#a6d14399e44586f5cccaf4e50122cd7e3">donneesRGB</a>[cas];</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            matriceG[i][j] = img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#a6d14399e44586f5cccaf4e50122cd7e3">donneesRGB</a>[cas+1];</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            matriceR[i][j] = img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#a6d14399e44586f5cccaf4e50122cd7e3">donneesRGB</a>[cas+2];</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            cas += 3;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="prototype_8h.html#ab913e4cfb04d6f60820e3acbb8d0e179">   53</a></span>&#160;<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *<a class="code" href="partie1_8c.html#ab913e4cfb04d6f60820e3acbb8d0e179">creeImage</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceR,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceG,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceB, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> i,j,cas;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    cas=0;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *img = (<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *) malloc(<span class="keyword">sizeof</span>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>));</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#a552bde5ac3af39a98c616c21d04eaa9c">hauteurImage</a> = haut;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#abec644be857ad039bf21dbe4e025cd8e">largeurImage</a> = larg;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#a6d14399e44586f5cccaf4e50122cd7e3">donneesRGB</a> = (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *) malloc(haut*larg*3 *<span class="keyword">sizeof</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>));</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">for</span>(i=0;i &lt; haut;i++){</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">for</span>(j=0;j &lt; larg;j++){</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#a6d14399e44586f5cccaf4e50122cd7e3">donneesRGB</a>[cas] = matriceB[i][j];</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#a6d14399e44586f5cccaf4e50122cd7e3">donneesRGB</a>[cas+1] = matriceG[i][j];</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            img-&gt;<a class="code" href="struct_donnees_image_r_g_b.html#a6d14399e44586f5cccaf4e50122cd7e3">donneesRGB</a>[cas+2] = matriceR[i][j];</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            cas += 3;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">return</span> img;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="prototype_8h.html#ae9d263fb9a2d9931bcfdc4fa877286a2">   85</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="partie1_8c.html#ae9d263fb9a2d9931bcfdc4fa877286a2">negatifImageNG</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matrice, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">int</span> i,j;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">for</span>(i=0;i &lt; haut;i++){</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">for</span>(j=0;j &lt; larg;j++){</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            matrice[i][j] = 255-matrice[i][j];</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="prototype_8h.html#a90a2bcd983c7d29e3718590312d74b70">  108</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="partie1_8c.html#a90a2bcd983c7d29e3718590312d74b70">negatifImage</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceR,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceG,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceB, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">int</span> i,j;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">for</span>(i=0;i &lt; haut;i++){</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">for</span>(j=0;j &lt; larg;j++){</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            matriceB[i][j] = 255-matriceB[i][j];</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            matriceG[i][j] = 255-matriceG[i][j];</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            matriceR[i][j] = 255-matriceR[i][j];</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="prototype_8h.html#aed65fc6ffd79ad8f1c9827b82b442f01">  134</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="partie1_8c.html#aed65fc6ffd79ad8f1c9827b82b442f01">couleur2NG</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceR,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceG,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceB, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordtype">int</span> i,j;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">for</span>(i=0;i &lt; haut;i++){</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">for</span>(j=0;j &lt; larg;j++){</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            matriceR[i][j] = 0.2125*matriceR[i][j] + 0.7154*matriceG[i][j] + 0.0721*matriceB[i][j];</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        }</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;}</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="prototype_8h.html#a650285388bbc3d693bcdc61629477df9">  156</a></span>&#160;<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *<a class="code" href="partie1_8c.html#a650285388bbc3d693bcdc61629477df9">sauveImageNG</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matrice, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="partie1_8c.html#ab913e4cfb04d6f60820e3acbb8d0e179">creeImage</a>(matrice,matrice,matrice,haut,larg);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;}</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="prototype_8h.html#ad54b1a3721410441e15f0f5b76e77bf6">  171</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="partie1_8c.html#ad54b1a3721410441e15f0f5b76e77bf6">seuillageNG</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matrice, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg, <span class="keywordtype">int</span> seuil){</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordtype">int</span> i,j;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">for</span>(i=0;i &lt; haut;i++){</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">for</span>(j=0;j &lt; larg;j++){</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            <span class="keywordflow">if</span>(matrice[i][j]&gt;seuil) matrice[i][j] = 255;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <span class="keywordflow">else</span> matrice[i][j] = 0;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        }</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;}</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="prototype_8h.html#af5bd2a3aefd76f19566fbdd4bf3a13f1">  192</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="partie1_8c.html#af5bd2a3aefd76f19566fbdd4bf3a13f1">changeimage</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *img,<span class="keywordtype">char</span> * nouvelleimage){</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordflow">if</span>(img != <a class="code" href="_bmp_lib_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) <a class="code" href="_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9">libereDonneesImageRGB</a>(&amp;img);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    img = <a class="code" href="_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e">lisBMPRGB</a>(nouvelleimage);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">if</span> (img == <a class="code" href="_bmp_lib_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>){</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        printf(<span class="stringliteral">&quot;\tErreur de Chargement : Le fichier demande n&#39;a pas ete trouve: %s\n&quot;</span>,nouvelleimage);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    }</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    printf(<span class="stringliteral">&quot;Chargement de %s\n&quot;</span>,nouvelleimage);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;}</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno"><a class="line" href="prototype_8h.html#a656b9fafd626ef7c1c3ac2147eb9b9ba">  203</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="partie1_8c.html#a656b9fafd626ef7c1c3ac2147eb9b9ba">sflush</a>(){</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordtype">int</span> c;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">while</span> ((c = getchar()) != <span class="charliteral">&#39;\n&#39;</span> &amp;&amp; c != EOF);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;}</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
+<div class="line"><a name="l00220"></a><span class="lineno"><a class="line" href="prototype_8h.html#a74146446548f74f43dcabaeea7b55493">  220</a></span>&#160;<span class="keywordtype">short</span> <span class="keywordtype">int</span> **<a class="code" href="partie1_8c.html#a74146446548f74f43dcabaeea7b55493">allocationMatrice</a>(<span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordtype">int</span> i,j;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="keywordtype">short</span> <span class="keywordtype">int</span> **matrice = (<span class="keywordtype">short</span> <span class="keywordtype">int</span> **) malloc(haut * <span class="keyword">sizeof</span>(<span class="keywordtype">short</span> <span class="keywordtype">int</span>*));</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordflow">for</span>(i=0;i&lt;haut;i++){</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        matrice[i] = (<span class="keywordtype">short</span> <span class="keywordtype">int</span> *) malloc(larg * <span class="keyword">sizeof</span>(<span class="keywordtype">short</span> <span class="keywordtype">int</span>));</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordflow">for</span>(i=0;i &lt; haut;i++){</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">for</span>(j=0;j &lt; larg;j++){</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            matrice[i][j] = 0;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    }</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordflow">return</span> matrice;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;}</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
+<div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="prototype_8h.html#a549b6bbc6d75e93a55e9074a52b5ae2e">  247</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="partie1_8c.html#a549b6bbc6d75e93a55e9074a52b5ae2e">triallocationMatrice</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span>** matriceR,<span class="keywordtype">short</span> <span class="keywordtype">int</span>** matriceG,<span class="keywordtype">short</span> <span class="keywordtype">int</span>** matriceB, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    matriceR = <a class="code" href="partie1_8c.html#a74146446548f74f43dcabaeea7b55493">allocationMatrice</a>(haut,larg);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    matriceG = <a class="code" href="partie1_8c.html#a74146446548f74f43dcabaeea7b55493">allocationMatrice</a>(haut,larg);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    matriceB = <a class="code" href="partie1_8c.html#a74146446548f74f43dcabaeea7b55493">allocationMatrice</a>(haut,larg);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;}</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno"><a class="line" href="prototype_8h.html#adb5d7822a97192827585a22212b5b957">  266</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="partie1_8c.html#adb5d7822a97192827585a22212b5b957">liberationtrimatrice</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceR,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceG,<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matriceB, <span class="keywordtype">int</span> haut){</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">for</span>(i=0;i&lt;haut;i++){</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        free(matriceR[i]);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        free(matriceG[i]);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        free(matriceB[i]);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    }</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    free(matriceR);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    free(matriceG);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    free(matriceB);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;}</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
+<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="prototype_8h.html#a106518d4a41c16e3a633d2963200b919">  287</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="partie1_8c.html#a106518d4a41c16e3a633d2963200b919">liberationmatrice</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> **matrice, <span class="keywordtype">int</span> haut){</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordflow">for</span>(i=0;i&lt;haut;i++){</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        free(matrice[i]);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    }</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    free(matrice);</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;}</div>
+<div class="ttc" id="partie1_8c_html_a106518d4a41c16e3a633d2963200b919"><div class="ttname"><a href="partie1_8c.html#a106518d4a41c16e3a633d2963200b919">liberationmatrice</a></div><div class="ttdeci">void liberationmatrice(short int **matrice, int haut)</div><div class="ttdoc">Libération d&amp;#39;une matrice. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00287">partie1.c:287</a></div></div>
+<div class="ttc" id="struct_donnees_image_r_g_b_html_a6d14399e44586f5cccaf4e50122cd7e3"><div class="ttname"><a href="struct_donnees_image_r_g_b.html#a6d14399e44586f5cccaf4e50122cd7e3">DonneesImageRGB::donneesRGB</a></div><div class="ttdeci">unsigned char * donneesRGB</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8h_source.html#l00016">BmpLib.h:16</a></div></div>
+<div class="ttc" id="struct_donnees_image_r_g_b_html_a552bde5ac3af39a98c616c21d04eaa9c"><div class="ttname"><a href="struct_donnees_image_r_g_b.html#a552bde5ac3af39a98c616c21d04eaa9c">DonneesImageRGB::hauteurImage</a></div><div class="ttdeci">int hauteurImage</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8h_source.html#l00015">BmpLib.h:15</a></div></div>
+<div class="ttc" id="partie1_8c_html_a90a2bcd983c7d29e3718590312d74b70"><div class="ttname"><a href="partie1_8c.html#a90a2bcd983c7d29e3718590312d74b70">negatifImage</a></div><div class="ttdeci">void negatifImage(short int **matriceR, short int **matriceG, short int **matriceB, int haut, int larg)</div><div class="ttdoc">Retour le negatif de 3 matrices. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00108">partie1.c:108</a></div></div>
+<div class="ttc" id="partie1_8c_html_ab913e4cfb04d6f60820e3acbb8d0e179"><div class="ttname"><a href="partie1_8c.html#ab913e4cfb04d6f60820e3acbb8d0e179">creeImage</a></div><div class="ttdeci">DonneesImageRGB * creeImage(short int **matriceR, short int **matriceG, short int **matriceB, int haut, int larg)</div><div class="ttdoc">Cree une image avec 3 matrices. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00053">partie1.c:53</a></div></div>
+<div class="ttc" id="struct_donnees_image_r_g_b_html_abec644be857ad039bf21dbe4e025cd8e"><div class="ttname"><a href="struct_donnees_image_r_g_b.html#abec644be857ad039bf21dbe4e025cd8e">DonneesImageRGB::largeurImage</a></div><div class="ttdeci">int largeurImage</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8h_source.html#l00014">BmpLib.h:14</a></div></div>
+<div class="ttc" id="_bmp_lib_8c_html_a88225a02f0f5ad840bd46145410bbb6e"><div class="ttname"><a href="_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e">lisBMPRGB</a></div><div class="ttdeci">DonneesImageRGB * lisBMPRGB(char *nom)</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8c_source.html#l00045">BmpLib.c:45</a></div></div>
+<div class="ttc" id="partie1_8c_html_adb5d7822a97192827585a22212b5b957"><div class="ttname"><a href="partie1_8c.html#adb5d7822a97192827585a22212b5b957">liberationtrimatrice</a></div><div class="ttdeci">void liberationtrimatrice(short int **matriceR, short int **matriceG, short int **matriceB, int haut)</div><div class="ttdoc">Libération de trois matrices en même temps. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00266">partie1.c:266</a></div></div>
+<div class="ttc" id="partie1_8c_html_aa4867e7efaa5f6922b0da87779abdf4a"><div class="ttname"><a href="partie1_8c.html#aa4867e7efaa5f6922b0da87779abdf4a">cree3matrices</a></div><div class="ttdeci">void cree3matrices(DonneesImageRGB *img, short int **matriceR, short int **matriceG, short int **matriceB)</div><div class="ttdoc">Créer les 3 matrices d&amp;#39;une image. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00026">partie1.c:26</a></div></div>
+<div class="ttc" id="partie1_8c_html_ad54b1a3721410441e15f0f5b76e77bf6"><div class="ttname"><a href="partie1_8c.html#ad54b1a3721410441e15f0f5b76e77bf6">seuillageNG</a></div><div class="ttdeci">void seuillageNG(short int **matrice, int haut, int larg, int seuil)</div><div class="ttdoc">Seuil une matrice. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00171">partie1.c:171</a></div></div>
+<div class="ttc" id="prototype_8h_html"><div class="ttname"><a href="prototype_8h.html">prototype.h</a></div><div class="ttdoc">Prototype des fonctions. </div></div>
+<div class="ttc" id="partie1_8c_html_a650285388bbc3d693bcdc61629477df9"><div class="ttname"><a href="partie1_8c.html#a650285388bbc3d693bcdc61629477df9">sauveImageNG</a></div><div class="ttdeci">DonneesImageRGB * sauveImageNG(short int **matrice, int haut, int larg)</div><div class="ttdoc">Sauvegarde une image NG. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00156">partie1.c:156</a></div></div>
+<div class="ttc" id="partie1_8c_html_aed65fc6ffd79ad8f1c9827b82b442f01"><div class="ttname"><a href="partie1_8c.html#aed65fc6ffd79ad8f1c9827b82b442f01">couleur2NG</a></div><div class="ttdeci">void couleur2NG(short int **matriceR, short int **matriceG, short int **matriceB, int haut, int larg)</div><div class="ttdoc">converti 3 matrices couleur en 1 en NG </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00134">partie1.c:134</a></div></div>
+<div class="ttc" id="_bmp_lib_8c_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="_bmp_lib_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8c_source.html#l00016">BmpLib.c:16</a></div></div>
+<div class="ttc" id="_bmp_lib_8c_html_a84142edceda87c3a09dab077ab2b0ef9"><div class="ttname"><a href="_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9">libereDonneesImageRGB</a></div><div class="ttdeci">void libereDonneesImageRGB(DonneesImageRGB **structure)</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8c_source.html#l00022">BmpLib.c:22</a></div></div>
+<div class="ttc" id="partie1_8c_html_a74146446548f74f43dcabaeea7b55493"><div class="ttname"><a href="partie1_8c.html#a74146446548f74f43dcabaeea7b55493">allocationMatrice</a></div><div class="ttdeci">short int ** allocationMatrice(int haut, int larg)</div><div class="ttdoc">Retour une matrice de dimension haut * larg. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00220">partie1.c:220</a></div></div>
+<div class="ttc" id="partie1_8c_html_af5bd2a3aefd76f19566fbdd4bf3a13f1"><div class="ttname"><a href="partie1_8c.html#af5bd2a3aefd76f19566fbdd4bf3a13f1">changeimage</a></div><div class="ttdeci">int changeimage(DonneesImageRGB *img, char *nouvelleimage)</div><div class="ttdoc">Charge une nouvelle image. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00192">partie1.c:192</a></div></div>
+<div class="ttc" id="partie1_8c_html_a549b6bbc6d75e93a55e9074a52b5ae2e"><div class="ttname"><a href="partie1_8c.html#a549b6bbc6d75e93a55e9074a52b5ae2e">triallocationMatrice</a></div><div class="ttdeci">void triallocationMatrice(short int **matriceR, short int **matriceG, short int **matriceB, int haut, int larg)</div><div class="ttdoc">Allocation de trois matrices. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00247">partie1.c:247</a></div></div>
+<div class="ttc" id="partie1_8c_html_ae9d263fb9a2d9931bcfdc4fa877286a2"><div class="ttname"><a href="partie1_8c.html#ae9d263fb9a2d9931bcfdc4fa877286a2">negatifImageNG</a></div><div class="ttdeci">void negatifImageNG(short int **matrice, int haut, int larg)</div><div class="ttdoc">Retour le negatif d&amp;#39;une matrice. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00085">partie1.c:85</a></div></div>
+<div class="ttc" id="partie1_8c_html_a656b9fafd626ef7c1c3ac2147eb9b9ba"><div class="ttname"><a href="partie1_8c.html#a656b9fafd626ef7c1c3ac2147eb9b9ba">sflush</a></div><div class="ttdeci">void sflush()</div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00203">partie1.c:203</a></div></div>
+<div class="ttc" id="struct_donnees_image_r_g_b_html"><div class="ttname"><a href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a></div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8h_source.html#l00012">BmpLib.h:12</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="partie1_8c.html">partie1.c</a></li>
+    <li class="footer">Généré le Dimanche Novembre 17 2013 19:05:09 pour Projet - Traitement d&#39;une image BMP par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

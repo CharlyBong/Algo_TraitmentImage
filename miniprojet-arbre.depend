@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1384677934 source:d:\mes documents\cir3\algo\miniprojet-arbre\main.c
+	"prototype.h"
+
+1381841513 d:\mes documents\cir3\algo\miniprojet-arbre\outilslib.h
+
+1381841516 d:\mes documents\cir3\algo\miniprojet-arbre\bmplib.h
+	<stdbool.h>
+
+1381841516 source:d:\mes documents\cir3\algo\miniprojet-arbre\bmplib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"BmpLib.h"
+	"OutilsLib.h"
+
+1381841513 source:d:\mes documents\cir3\algo\miniprojet-arbre\outilslib.c
+	"OutilsLib.h"
+	<stdbool.h>
+
+1222029414 d:\mes documents\cir3\algo\lib\eslib.h
+
+1382774011 d:\mes documents\cir3\algo\miniprojet-arbre\partie1.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<math.h>
+	<unistd.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"BmpLib.h"
+	"OutilsLib.h"
+
+1384677772 source:d:\mes documents\cir3\algo\miniprojet-arbre\partie1.c
+	"prototype.h"
+
+1384677712 d:\mes documents\cir3\algo\miniprojet-arbre\prototype.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<unistd.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"BmpLib.h"
+	"OutilsLib.h"
+
+1384628324 source:d:\mes documents\cir3\algo\miniprojet-arbre\median.c
+	"prototype.h"
+
+1384628552 source:d:\mes documents\cir3\algo\miniprojet-arbre\quaternaire.c
+	"prototype.h"
+
+1384624653 source:d:\mes documents\cir3\algo\miniprojet-arbre\caldist.c
+	"prototype.h"
+
+1384677278 source:d:\mes documents\cir3\algo\miniprojet-arbre\doxy.c
+

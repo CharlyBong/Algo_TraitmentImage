@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Projet - Traitement d&#39;une image BMP: Projet d&#39;Algorithme</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet - Traitement d&#39;une image BMP
+   &#160;<span id="projectnumber">0.5.0</span>
+   </div>
+   <div id="projectbrief">Bongiorno Charles Cir_3</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li class="current"><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('index.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Projet d'Algorithme </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h1><a class="anchor" id="intro_sec"></a>
+Introduction</h1>
+<p>Ce projet s'inscrit dans le cadre de notre formation d'ingénieur, en troisième année du Cycle d'Informatique &amp; Réseau (CIR).<br/>
+ Il a été fait sous la direction de Mme ROBERT-INACIO, notre professeur d'Algorithme Avancée.<br/>
+</p>
+<h1><a class="anchor" id="install_sec"></a>
+Utilisation</h1>
+<p>Pour le traitement de vos propres images, elles doivent être au format BMP (24bits - R8 G8 B8).<br/>
+ Puis être positionné dans le dossier racine du programme : "Cir_3 - BONGIORNO - Projet\Programme".<br/>
+ Attention plusieurs fonctions demandent des images carrées (n*n) de dimension de puissance deux.<br/>
+<br/>
+ Voici les options du menu: </p>
+<ul>
+<li>
+1 &ndash;&gt; Négatif d'une image </li>
+<li>
+2 &ndash;&gt; Transformation en niv de gris </li>
+<li>
+3 &ndash;&gt; Seuillage </li>
+<li>
+4 &ndash;&gt; Lisage NB </li>
+<li>
+5 &ndash;&gt; Lisage Couleur </li>
+<li>
+6 &ndash;&gt; Création Arbre NB </li>
+<li>
+7 &ndash;&gt; Création Matrice à partir d'un arbre NB </li>
+<li>
+8 &ndash;&gt; Création Arbre NG </li>
+<li>
+9 &ndash;&gt; Création Matrice à partir d'un arbre NG </li>
+<li>
+10 &ndash;&gt; Création Arbre RVB </li>
+<li>
+11 &ndash;&gt; Création Matrice à partir d'un arbre RVB </li>
+<li>
+12 &ndash;&gt; Zoom 2^-k </li>
+<li>
+13 &ndash;&gt; Tous les niveaux de Zoom 2^-k </li>
+<li>
+15 &ndash;&gt; Calcul Distance </li>
+<li>
+51 &ndash;&gt; Chargement rapide de hoodoos.bmp </li>
+<li>
+52 &ndash;&gt; Chargement rapide de horseshoe.bmp </li>
+<li>
+53 &ndash;&gt; Chargement rapide de nenuphar.bmp </li>
+<li>
+55 &ndash;&gt; Chargement du fichier de votre choix </li>
+<li>
+56 &ndash;&gt; Rechargement du fichier </li>
+<li>
+60 &ndash;&gt; Enregistrement dans imagefinal.bmp </li>
+<li>
+61 &ndash;&gt; Chargement du fichier d'enregistrement </li>
+<li>
+0 &ndash;&gt; Quitter le programme</li>
+</ul>
+<h1><a class="anchor" id="obj_sec"></a>
+Objectifs</h1>
+<p>Le projet a été découpé en plusieurs parties.<br/>
+ </p>
+<h2><a class="anchor" id="p1_obj_sec"></a>
+Première partie</h2>
+<p>Cette partie correspond aux fonctions de gestion des images BMP, comme convertir une image en trois matrices (RGB).<br/>
+ </p>
+<h2><a class="anchor" id="p2_obj_sec"></a>
+Seconde partie</h2>
+<p>Cette partie correspond aux fonctions de base du traitement des matrices (RGB ou NG), comme : </p>
+<ul>
+<li>
+Négatif d'une image </li>
+<li>
+Transformation en niveau de gris </li>
+<li>
+Seuillage </li>
+<li>
+Filtre médian n*n NG </li>
+<li>
+Filtre médian n*n couleurs</li>
+</ul>
+<h2><a class="anchor" id="p3_obj_sec"></a>
+Troisième partie</h2>
+<p>Cette partie correspond aux fonctions de traitement des matrices par des arbres quaternaire, d'image de dimension puissance 2.<br/>
+ Cela consiste à convertir une matrice en arbre quaternaire puis à revenir sous forme de matrice. On doit faire ceci en NB, en NG et en couleur.<br/>
+ </p>
+<h2><a class="anchor" id="p4_obj_sec"></a>
+Quatrième partie</h2>
+<p>On doit réaliser un zoom de facteur 2^(-k).<br/>
+ Cette partie est à réalisé sur des arbres quaternaires NG et RGB.<br/>
+ De plus, nous une fonction qui va réaliser tout les niveaux de zoom possible. </p>
+<h2><a class="anchor" id="p5_obj_sec"></a>
+Cinquième partie</h2>
+<p>C'est la partie personnelle du projet.<br/>
+ Les images traitées ici sont binaires: chaque pixel est soit blanc (255) soit noir (0), pour obtenir un tel résultat, on peut appliquer un seuil à des images NG.<br/>
+ Le traitement effectué ici va pour chaque pixel d'une image le transformer en niveau de noir proportionnellement à sa distance d'un pixel blanc. Ainsi un pixel blanc sera noir, un pixel noir très loin d'un pixel blanc sera blanc.<br/>
+</p>
+<h1><a class="anchor" id="exmp_sec"></a>
+Exemples - Comparatifs</h1>
+<p>Dans cette section, je vais présenter des exemples de traitements fait avec le programme.<br/>
+ Dans certain cas, et pour des raisons de présentation, les images sont redimensionnées à l'affichage. Je vous invite donc à cliquer sur le lien en dessous de l'image, pour les voir en taille réel.<br/>
+</p>
+<h2><a class="anchor" id="liss_exmp_sec"></a>
+Lissage Couleur</h2>
+<p>J'ai repris l'image du nénuphar (1024*1024) et avec un logiciel de retouche photo j'ai tracé un trait (1px) blanc sur l'image. J'ai ensuite traité mon image avec la fonction lissage couleur de mon programme. Après le lissage, le trait a disparu.<br/>
+ </p>
+<div class="image">
+<img src="images/compalissage.png"  height="500px" alt="Compalissage"/>
+</div>
+<p> <small><a href="images/compalissage.png" target="_BLANK">(voir l'image)</a></small><br/>
+</p>
+<h2><a class="anchor" id="quatcou_exmp_sec"></a>
+Quaternaire Couleur</h2>
+<p>Voici des tests sur la partie des arbres quaternaires couleurs et la restitution avec des niveaux de profondeur par rapport à la racine, différents. Pour ces tests, j'ai utilisé une image de 256px*256px.<br/>
+ Les images qui vont suivre on été on reçu les traitements suivant: </p>
+<ul>
+<li>
+Conversion en trois matrices (RGB) </li>
+<li>
+Conversion en arbre quaternaire <ul>
+<li>
+Calcul de la valeur médiane du carré <a href="#medRGB_details_sec">(voir Médiane Couleur)</a> </li>
+<li>
+Découpage à l'aide d'une valeur médiane suivant un &epsilon; <a href="#hom_details_sec">(voir Homogénéité d'un carré)</a></li>
+</ul>
+</li>
+<li>
+Reconversion en matrices RGB suivant un niveau 'nn' <a href="#matquat_details_sec">(voir Restitution Matrice)</a> </li>
+<li>
+Restitution en image bmp </li>
+</ul>
+<p><br/>
+ Voici le comparatif avec &epsilon; = 90 </p>
+<div class="image">
+<img src="images/ToshCompaEpsi(90).png"  height="768px" alt="CompaEpi90"/>
+</div>
+<p> <small><a href="images/ToshCompaEpsi(90).png" target="_BLANK">(voir l'image)</a></small><br/>
+ Voici le même travail avec &epsilon; = 5 </p>
+<div class="image">
+<img src="images/ToshCompaEpsi(5).png"  height="768px" alt="CompaEpi5"/>
+</div>
+<p> <small><a href="images/ToshCompaEpsi(5).png" target="_BLANK">(voir l'image)</a></small><br/>
+</p>
+<h2><a class="anchor" id="epsi_exmp_sec"></a>
+Epsilon</h2>
+<p>Lors du calcul de l'homogénéité d'un carré de l'arbre quaternaire (NG ou RGB), nous devons vérifier si la différence de couleur est inférieure à un &epsilon;.<br/>
+ Ce dernier est fixé en dur dans le programme.<br/>
+ Plus il est élevé, moins l'image sera précise.<br/>
+ Voici un comparatif de la même image traitée avec des &epsilon; différents. </p>
+<div class="image">
+<img src="images/ToshCompaEpsi.png"  alt="CompaEp"/>
+</div>
+<p> <small><a href="images/ToshCompaEpsi.png" target="_BLANK">(voir l'image)</a></small><br/>
+</p>
+<h2><a class="anchor" id="calculdist_exmp_sec"></a>
+Calcul de distance</h2>
+<p>J'ai utilisé une image bmp de 400px*400px, similaire à celle montrée dans l'énoncé.<br/>
+ Après avoir effectué le traitement du calcul de distance (algorithme donné dans l'énoncé), Voici ce que l'on obtient avec l'image d'origine (img 1), ce n'est pas le résultat souhaité .<br/>
+ Pour obtenir des résultats plus proches de ce que l'on attend, J'ai ensuite retenté l'expérience avec le négatif de cette image (img 2).<br/>
+ </p>
+<div class="image">
+<img src="images/compacroix.png"  height="500px" alt="CompaCroix"/>
+</div>
+<p> <small><a href="images/compacroix.png" target="_BLANK">(voir l'image)</a></small><br/>
+</p>
+<h1><a class="anchor" id="details_sec"></a>
+Détails</h1>
+<p>Voici des explications sur les traitements effectués.</p>
+<h2><a class="anchor" id="liss_details_sec"></a>
+Lissage</h2>
+<p>Lors du lissage d'une image, le but est de gommer les irrégularités sur une image.<br/>
+ Pour cela, pour chaque pixel de l'image, nous allons regarder si les pixels proches ont la même couleur.<br/>
+ Si une couleur diffère trop par rapport à ces voisins, on la remplace par une des couleurs voisines.<br/>
+ L'inconvénient de cette méthode est de ne pas pouvoir traiter les bords de l'image. Ici, nous avons choisi de mettre une bordure noire.<br/>
+</p>
+<h2><a class="anchor" id="medNG_details_sec"></a>
+Calcul Médiane NG</h2>
+<p>Pour obtenir la valeur médiane, on va parcourir la matrice entre les coordonnées x0-x1 et y0-y1.<br/>
+ Nous récupérons ainsi toutes couleurs des pixels du carré, on les place ensuite dans un tableau de dimension ((x1-x0)*(y1-y0)).<br/>
+ Après avoir trié le tableau par ordre croissant, nous récupérons la valeur se trouvant au milieu du tableau.<br/>
+ Ainsi à la différence de la valeur moyenne, nous obtenons une valeur existante dans notre matrice.<br/>
+</p>
+<h2><a class="anchor" id="medRGB_details_sec"></a>
+Calcul Médiane Couleur</h2>
+<p><a href="quaternaire_8c.html" class="quaternaire_8c.html">Voir le détail de la fonction.</a><br/>
+ Durant cette étape, on va parcourir les matrices (RGB) entre les coordonnées x0-x1 et y0-y1.<br/>
+ Pour chaque case, on calculera la distance entre les couleurs deux à deux.<br/>
+ Ainsi, pour chaque pixel de l'image, on parcourt une nouvelle fois l'image entre x0-x1 et y0-y1, et effectuons le calcul suivant:<br/>
+ sqrt( (matriceR[k][l]-matriceR[i][j])² + (matriceG[k][l]-matriceG[i][j])² + (matriceB[k][l]-matriceB[i][j])² )<br/>
+ avec i et k variant entre x0 et x1, j et l variant entre y0 et y1.<br/>
+ <br/>
+ Dans un deuxième temps, et dans le but d'éviter une redondance de calcul pour gagner en temps de traitements, j'ai utilisé une optimisation;<br/>
+ Généralement dans une image, les pixels ayant la même couleur sont proches (cote à cote).<br/>
+ Ainsi avant de refaire une boucle et le calcul qui en suit d'un pixel, je vérifie si un pixel ayant la même couleur se trouve à coté, et si c'est le cas, je récupère la valeur du calcul directement. On obtient ainsi des résultats dans des délais plus courts.<br/>
+</p>
+<h2><a class="anchor" id="hom_details_sec"></a>
+Homogénéité d'un carré</h2>
+<p>Lorsque de la création de l'arbre, nous devons calculer pour chaque nœud la valeur médiane. Si cette valeur est homogène par rapport au carré, le nœud est une feuille. Sinon, on découpe le carré en quatre, et on refait le traitement.<br/>
+ La question de l'homogénéité est différente suivant les cas: Pour une image binaire (NB) : un carré est dit homogène si tous les pixels qui le constituent sont soit blancs soit noirs.<br/>
+ Pour une image en niveau de gris (NG) : il faut que la différence entre la couleur de tous les pixels et la valeur médiane soit inférieure à un certain &epsilon;.<br/>
+ Pour une image en couleur (RGB) : même méthode mais en prend en compte la répartition spatiale des couleurs.<br/>
+</p>
+<h2><a class="anchor" id="matquat_details_sec"></a>
+Création matrice</h2>
+<p>Pour la restitution d'une matrice à partir d'un arbre quaternaire, nous utilisons la méthode suivante.<br/>
+ L'utilisateur demande un niveau de profondeur souhaité (le nn). Nous allons ensuite parcourir l'arbre jusqu'a au niveau demandé, et afficher les couleurs médianes des nœuds.<br/>
+ Si le chiffre entré est plus grand que le niveau de profondeur maximum, nous nous arrêtons sur les feuilles de l'arbre.<br/>
+ Ainsi 0 donne la racine de l'arbre, 1 les quatre fils de la racine, etc ...<br/>
+ De plus, pour -1 nous affichons le niveau maximum de l'arbre, c'est à dire toutes les feuilles de ce dernier.<br/>
+</p>
+<h2><a class="anchor" id="zoom_details_sec"></a>
+Le Zoom</h2>
+<p>Cette partie est très similaire à la restitution d'arbre quaternaire. Ici la notion de niveau de profondeur par rapport à la racine est remplacer par celle du niveau de zoom. Nous demandons à l'utilisateur le niveau de zoom souhaité, nous soustrayons le nombre donné à la profondeur maximum de l'arbre, pour obtenir le niveau de profondeur par rapport à la racine.<br/>
+ Nous utilisons ensuite les fonctions de la partie précédente pour la création d'une matrice à partir d'un arbre.</p>
+<h1><a class="anchor" id="concl_sec"></a>
+Conclusion</h1>
+<p>J'ai pris beaucoup de plaisir à réaliser ce projet, aussi bien la partie technique, que la partie documentation.<br/>
+ J'ai beaucoup appris de ce projet sur la gestion et le traitement d'image.<br/>
+ Ce travail nous a aussi permis de mettre en pratique la gestion des arbres en algorithme.<br/>
+ <br/>
+<br/>
+<br/>
+<br/>
+ </p>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Généré le Dimanche Novembre 17 2013 19:05:10 pour Projet - Traitement d&#39;une image BMP par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

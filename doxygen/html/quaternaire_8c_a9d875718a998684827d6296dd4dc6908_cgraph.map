@@ -1,0 +1,6 @@
+<map id="creeationArbreRVB" name="creeationArbreRVB">
+<area shape="rect" id="node2" href="$prototype_8h.html#a046d445399231ece7aec33a19c57bb1d" title="Allocation d&#39;un nœud de l&#39;arbre quaternaire RGB. " alt="" coords="369,23,511,49"/>
+<area shape="rect" id="node3" href="$prototype_8h.html#aa861d7500e11f0c67b6140fcddf250cd" title="Vérifie si le carré est homogène RGB. " alt="" coords="370,85,510,112"/>
+<area shape="rect" id="node5" href="$prototype_8h.html#a9d875718a998684827d6296dd4dc6908" title="Création d&#39;un nœud de l&#39;arbre quaternaire RGB. " alt="" coords="187,48,320,75"/>
+<area shape="rect" id="node4" href="$prototype_8h.html#a8054b3fc9ddb40f36e48d358bc04e4ba" title="Calcul la valeur médiane d&#39;un carré RGB. " alt="" coords="561,85,701,112"/>
+</map>

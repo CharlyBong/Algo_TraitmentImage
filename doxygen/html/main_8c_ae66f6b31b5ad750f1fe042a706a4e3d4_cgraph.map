@@ -1,0 +1,62 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e" title="lisBMPRGB" alt="" coords="342,613,434,640"/>
+<area shape="rect" id="node4" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg S&#39;occupe de l&#39;allocation d&#39;une matrice. " alt="" coords="736,576,856,603"/>
+<area shape="rect" id="node5" href="$partie1_8c.html#aa4867e7efaa5f6922b0da87779abdf4a" title="Créer les 3 matrices d&#39;une image Permet de remplir 3 matrices (RGB) avec les données d&#39;une image..." alt="" coords="128,107,232,133"/>
+<area shape="rect" id="node6" href="$main_8c.html#a8d32006486efea4ecd42122742ce1105" title="Affichage du menu de sélection Affiche le menu de sélection. " alt="" coords="137,157,223,184"/>
+<area shape="rect" id="node7" href="$partie1_8c.html#a90a2bcd983c7d29e3718590312d74b70" title="Retour le negatif de 3 matrices Inverse les couleurs avec 3 matrices (RVG) " alt="" coords="133,208,227,235"/>
+<area shape="rect" id="node8" href="$partie1_8c.html#aed65fc6ffd79ad8f1c9827b82b442f01" title="converti 3 matrices couleur en 1 en nb Utilise les 3 matrices RVG pour en faire une nb..." alt="" coords="135,259,225,285"/>
+<area shape="rect" id="node9" href="$partie1_8c.html#ad54b1a3721410441e15f0f5b76e77bf6" title="Seuil une matrice. " alt="" coords="342,1424,434,1451"/>
+<area shape="rect" id="node10" href="$median_8c.html#a7bb93f34ab63a156302ff19299d7f3ae" title="Effectue le lissage d&#39;une matrice NG Crée une matrice en niveau de gris lisser avec la technique de l..." alt="" coords="123,5,237,32"/>
+<area shape="rect" id="node13" href="$median_8c.html#a89439f95fc47557166b7ed1cea4ee2af" title="Effectue le lissage d&#39;une matrice couleur Crée une matrice en couleur (RGB) lisser avec la technique ..." alt="" coords="110,309,250,336"/>
+<area shape="rect" id="node15" href="$partie1_8c.html#adb5d7822a97192827585a22212b5b957" title="Libération de trois matrices en même temps. " alt="" coords="116,461,244,488"/>
+<area shape="rect" id="node16" href="$prototype_8h.html#abbb4dd828fb06821dd2c6cfc4d939ebd" title="Fonction d&#39;appel de création d&#39;un arbre NB. " alt="" coords="132,56,228,83"/>
+<area shape="rect" id="node20" href="$prototype_8h.html#a667b0f5c952983b2dc4a0f2327106eb1" title="Fonction d&#39;appel de création une matrice d&#39;un arbre quaternaire NB. " alt="" coords="126,411,234,437"/>
+<area shape="rect" id="node23" href="$partie1_8c.html#a106518d4a41c16e3a633d2963200b919" title="Libération d&#39;une matrice. " alt="" coords="533,563,651,589"/>
+<area shape="rect" id="node24" href="$prototype_8h.html#a80c7e96deac0699503dec245e2131975" title="fonction d&#39;appel de création de l&#39;arbre NG appel la fonction de création d&#39;un arbre quaternaire à par..." alt="" coords="131,360,229,387"/>
+<area shape="rect" id="node29" href="$prototype_8h.html#a0fa6731f07927f703cf1c488d79c2cb6" title="Fonction d&#39;appel de conversion arbre &#45;&gt; matrice NG Alloue une matrice pour la remplir avec un arbre q..." alt="" coords="537,715,647,741"/>
+<area shape="rect" id="node32" href="$prototype_8h.html#aefd17584e965ef44eaa002b39e310b86" title="Fonction d&#39;appel de création de l&#39;arbre RGB Appel la fonction de création d&#39;un arbre quaternaire à pa..." alt="" coords="127,765,233,792"/>
+<area shape="rect" id="node37" href="$prototype_8h.html#a5715adb9973e14b37d0b6920cf12f782" title="Remplissage des matrices avec un arbre RGB Rempli une matrice à partir d&#39;un arbre quaternaire en coul..." alt="" coords="523,1081,661,1108"/>
+<area shape="rect" id="node39" href="$prototype_8h.html#ad9b089f8ab718a8d2ff3f459b748ff74" title="Calcul la profondeur d&#39;un arbre Mesure la profondeur d&#39;un arbre quaternaire, fait des appels récursif..." alt="" coords="535,1007,649,1033"/>
+<area shape="rect" id="node40" href="$prototype_8h.html#a40a9a977e62de4f6784b059134925bbf" title="zoomNG" alt="" coords="351,816,425,843"/>
+<area shape="rect" id="node41" href="$prototype_8h.html#a98566b8b5bd16a3dde718cea893609ca" title="Converti le k en nn Permet de passer le niveau de zoom demandé (2^&#45;k) en niveau d&#39;affichage à partir ..." alt="" coords="557,867,627,893"/>
+<area shape="rect" id="node42" href="$prototype_8h.html#a48b048cacd0128d7485e99ea7d5fd9ba" title="zoomCouleur" alt="" coords="339,1019,437,1045"/>
+<area shape="rect" id="node43" href="$quaternaire_8c.html#ad8bb52314936ad1d1ad641c305d7792d" title="tousLesZoomsNG" alt="" coords="117,968,243,995"/>
+<area shape="rect" id="node44" href="$partie1_8c.html#a650285388bbc3d693bcdc61629477df9" title="Sauvegarde une image NG Retourne une image (BMP) à partir d&#39;une matrice (NB) " alt="" coords="333,1221,443,1248"/>
+<area shape="rect" id="node45" href="$partie1_8c.html#ab913e4cfb04d6f60820e3acbb8d0e179" title="Cree une image avec 3 matrices Creer une image à partir de 3 matrices RGB. " alt="" coords="551,1272,633,1299"/>
+<area shape="rect" id="node46" href="$_bmp_lib_8c.html#abf1da9548a3aa2a96715f9b5fd7525ab" title="ecrisBMPRGB_Dans" alt="" coords="316,1120,460,1147"/>
+<area shape="rect" id="node48" href="$_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9" title="libereDonneesImageRGB" alt="" coords="305,917,471,944"/>
+<area shape="rect" id="node49" href="$prototype_8h.html#a1d1e77f95b9ad72f9f8059a412ee8365" title="tousLesZoomsCouleur" alt="" coords="105,1069,255,1096"/>
+<area shape="rect" id="node50" href="$_caldist_8c.html#a01267e9e283e046820857af7c1044fcb" title="Fonction d&#39;appel du calcul distance. " alt="" coords="119,1475,241,1501"/>
+<area shape="rect" id="node57" href="$partie1_8c.html#a801262d590c3ffdedcac4f3a2be51fd5" title="Charge une nouvelle image Libére les données d&#39;une image pour en charger une nouvelle (nom passé en p..." alt="" coords="131,715,229,741"/>
+<area shape="rect" id="node58" href="$partie1_8c.html#a656b9fafd626ef7c1c3ac2147eb9b9ba" title="sflush" alt="" coords="152,1525,208,1552"/>
+<area shape="rect" id="node59" href="$median_8c.html#a4542bac21ca91ca34368026179bc4948" title="medianPersoNxN" alt="" coords="119,1581,241,1608"/>
+<area shape="rect" id="node3" href="$_outils_lib_8c.html#a583862b5b6bc166ee22c6bf4c71661c1" title="little32VersNatif" alt="" coords="535,613,649,640"/>
+<area shape="rect" id="node11" href="$median_8c.html#a8d073ca77c07879099a62d661e317f33" title="Calcul de la médiane pour une case NG. " alt="" coords="738,17,854,44"/>
+<area shape="rect" id="node12" href="$median_8c.html#a6f9266f5d5b1c83fdcd462d44e60f3e2" title="tri un tableau et retourne la valeur médiane " alt="" coords="971,152,1045,179"/>
+<area shape="rect" id="node14" href="$median_8c.html#a0beb247bdb8f9cc298a19198ac5e8be2" title="Calcul de la médiane pour une case couleur. " alt="" coords="317,261,459,288"/>
+<area shape="rect" id="node17" href="$prototype_8h.html#a21c86de2b1eb908399e18ea7d445c4fb" title="Création d&#39;un nœud de l&#39;arbre Crée le nœud de l&#39;arbre de le remplit, fait un appel récursif si besoin..." alt="" coords="326,80,450,107"/>
+<area shape="rect" id="node18" href="$prototype_8h.html#a325bf257558a093ac6ceef33042c4554" title="Allocation d&#39;un nœud de l&#39;arbre Création et allocation d&#39;un espace pour le nœud de l&#39;arbre quaternair..." alt="" coords="525,80,659,107"/>
+<area shape="rect" id="node19" href="$prototype_8h.html#ac337e0476780ba4e5236a1d56ad8fd53" title="Calcul valeur médiane carre NB Calcul la valeur médiane d&#39;un carre de dimension donnée dans une matri..." alt="" coords="753,80,839,107"/>
+<area shape="rect" id="node21" href="$prototype_8h.html#a150d4fde63a110e7865ebfccfd5045d2" title="Remplissage d&#39;une matrice à partir d&#39;un arbre quaternaire NB Rempli une matrice avec l&#39;arbre quaterna..." alt="" coords="323,411,453,437"/>
+<area shape="rect" id="node22" href="$prototype_8h.html#a4d6a727b3144c018d370a0158991fd71" title="Remplissage matrice avec la couleur médiane Rempli un carré de la matrice avec la valeur de la médian..." alt="" coords="521,411,663,437"/>
+<area shape="rect" id="node25" href="$prototype_8h.html#a008a2eb8c5586e1a49dac2e6f37bd2d1" title="Création d&#39;un nœud de l&#39;arbre quaternaire NG Crée le nœud de l&#39;arbre quaternaire en niveau de gris..." alt="" coords="325,336,451,363"/>
+<area shape="rect" id="node26" href="$prototype_8h.html#ab7f7c7557276f69edf708697150975a8" title="Allocation d&#39;un nœud de l&#39;arbre quaternaire NG. " alt="" coords="525,336,659,363"/>
+<area shape="rect" id="node28" href="$prototype_8h.html#a6e1a572b499cc997a53d11205e0ae260" title="Vérifie si le carré est homogène NG Vérifie que la différence entre chaque pixel du carré de la matri..." alt="" coords="526,285,658,312"/>
+<area shape="rect" id="node27" href="$prototype_8h.html#a148b7bd50d305fad50ae008993a0fccb" title="Calcul la valeur médiane d&#39;un carré NG Calcul la valeur médiane d&#39;un carré de matrice en niveau de gr..." alt="" coords="735,285,857,312"/>
+<area shape="rect" id="node30" href="$prototype_8h.html#aad44154524c9c77b432cb6cf52c7acf4" title="Remplissage de la matrice avec un arbre NG Rempli une matrice à partir d&#39;un arbre quaternaire en nive..." alt="" coords="731,715,861,741"/>
+<area shape="rect" id="node31" href="$prototype_8h.html#a1e1d02ab87953add75ff8ebf2e627875" title="Remplissage d&#39;une case de la matrice NG Remplie une carré de la matrice à partir de l&#39;arbre quaternai..." alt="" coords="928,715,1088,741"/>
+<area shape="rect" id="node33" href="$prototype_8h.html#a9d875718a998684827d6296dd4dc6908" title="Création d&#39;un nœud de l&#39;arbre quaternaire RGB Crée le nœud de l&#39;arbre quaternaire en couleur..." alt="" coords="321,765,455,792"/>
+<area shape="rect" id="node34" href="$prototype_8h.html#a046d445399231ece7aec33a19c57bb1d" title="Allocation d&#39;un nœud de l&#39;arbre quaternaire RGB. " alt="" coords="521,664,663,691"/>
+<area shape="rect" id="node35" href="$prototype_8h.html#aa861d7500e11f0c67b6140fcddf250cd" title="Vérifie si le carré est homogène RGB Vérifie que la différence entre chaque pixel du carré de la matr..." alt="" coords="522,765,662,792"/>
+<area shape="rect" id="node36" href="$prototype_8h.html#a8054b3fc9ddb40f36e48d358bc04e4ba" title="Calcul la valeur médiane d&#39;un carré RGB Calcul la valeur médiane d&#39;un carré de matrice en couleur..." alt="" coords="726,765,866,792"/>
+<area shape="rect" id="node38" href="$prototype_8h.html#a1827c61ee6b5102f8e991fa41290481a" title="Remplissage d&#39;une case des matrices RGB Remplie une carré des matrices à partir de l&#39;arbre quaternair..." alt="" coords="712,1081,880,1108"/>
+<area shape="rect" id="node47" href="$_outils_lib_8c.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb" title="natif32VersLittle" alt="" coords="535,1132,649,1159"/>
+<area shape="rect" id="node51" href="$partie1_8c.html#ae9d263fb9a2d9931bcfdc4fa877286a2" title="Retour le negatif d&#39;une matrice Inverse les couleurs avec 1 matrices (NG) " alt="" coords="331,1475,445,1501"/>
+<area shape="rect" id="node52" href="$_caldist_8c.html#a68194757508adc5f0ed956fd55c364b2" title="Calcul la distance entre des pixel de couleur différente Algorithme donné par notre professeur d&#39;algo..." alt="" coords="335,1525,441,1552"/>
+<area shape="rect" id="node53" href="$_caldist_8c.html#a6666598676080036d2f11e3fad54f2b0" title="Copie une matrice Création une matrice de dimension (haut * larg) et y copie la matrice passé en para..." alt="" coords="544,1367,640,1393"/>
+<area shape="rect" id="node54" href="$_caldist_8c.html#ac122956f44b6acde5f27e0b3b9bd957f" title="Calcul le minimum entre cinq nombres. " alt="" coords="553,1461,631,1488"/>
+<area shape="rect" id="node55" href="$_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b" title="Calcul le minimum entre deux nombres. " alt="" coords="761,1512,831,1539"/>
+<area shape="rect" id="node56" href="$_caldist_8c.html#af97439a39d7834efdf9efa7b02e7fd09" title="Calcul le minimum entre quatre nombres. " alt="" coords="553,1563,631,1589"/>
+<area shape="rect" id="node60" href="$median_8c.html#a310edb3d11ef25b3a5285c08962ba34d" title="medianPersocase" alt="" coords="325,1588,451,1615"/>
+<area shape="rect" id="node61" href="$median_8c.html#abb898c792fea651f40ed9cd1605065f1" title="retourne l&#39;indice de la valeur minimum du tableau " alt="" coords="549,1613,635,1640"/>
+</map>

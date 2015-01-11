@@ -1,0 +1,11 @@
+<map id="allocationMatrice" name="allocationMatrice">
+<area shape="rect" id="node2" href="$prototype_8h.html#a6666598676080036d2f11e3fad54f2b0" title="Copie une matrice. " alt="" coords="191,5,287,32"/>
+<area shape="rect" id="node5" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main du programme. " alt="" coords="685,132,736,159"/>
+<area shape="rect" id="node6" href="$prototype_8h.html#a549b6bbc6d75e93a55e9074a52b5ae2e" title="Allocation de trois matrices. " alt="" coords="173,107,304,133"/>
+<area shape="rect" id="node7" href="$quaternaire_8c.html#a667b0f5c952983b2dc4a0f2327106eb1" title="Fonction d&#39;appel de création une matrice d&#39;un arbre quaternaire NB. " alt="" coords="353,107,461,133"/>
+<area shape="rect" id="node8" href="$quaternaire_8c.html#a0fa6731f07927f703cf1c488d79c2cb6" title="Fonction d&#39;appel de conversion arbre &#45;&gt; matrice NG. " alt="" coords="184,208,293,235"/>
+<area shape="rect" id="node3" href="$prototype_8h.html#a68194757508adc5f0ed956fd55c364b2" title="Calcul la distance entre des pixel de couleur différente. " alt="" coords="353,5,460,32"/>
+<area shape="rect" id="node4" href="$prototype_8h.html#a01267e9e283e046820857af7c1044fcb" title="Fonction d&#39;appel du calcul distance. " alt="" coords="512,5,635,32"/>
+<area shape="rect" id="node9" href="$quaternaire_8c.html#a3ebbb6278c797c3e72b00c179732e433" title="Effectue le zoom sur un arbre NG. " alt="" coords="370,208,443,235"/>
+<area shape="rect" id="node10" href="$quaternaire_8c.html#ad8bb52314936ad1d1ad641c305d7792d" title="Réalise tout les niveau de zoom d&#39;un arbre NG. " alt="" coords="510,259,637,285"/>
+</map>

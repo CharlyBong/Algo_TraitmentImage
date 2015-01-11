@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Projet - Traitement d&#39;une image BMP:  Fichier source de D:/Mes Documents/CIR3/Algo/miniprojet-arbre/Caldist.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Projet - Traitement d&#39;une image BMP
+   &#160;<span id="projectnumber">0.5.0</span>
+   </div>
+   <div id="projectbrief">Bongiorno Charles Cir_3</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_caldist_8c_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Définitions de type</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">D:/Mes Documents/CIR3/Algo/miniprojet-arbre/Caldist.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_caldist_8c.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="prototype_8h.html">prototype.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="prototype_8h.html#a68194757508adc5f0ed956fd55c364b2">   24</a></span>&#160;<span class="keywordtype">short</span> <span class="keywordtype">int</span>** <a class="code" href="_caldist_8c.html#a68194757508adc5f0ed956fd55c364b2">calculDistance</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span>** matriceOrgine, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">short</span> <span class="keywordtype">int</span>** mfinal = <a class="code" href="_caldist_8c.html#a6666598676080036d2f11e3fad54f2b0">copieMatrice</a>(matriceOrgine,haut,larg);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">int</span> i,j;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">for</span>(i=0;i&lt;haut-1;i++){</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">for</span>(j=0;j&lt;larg-2;j++){</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            mfinal[i+1][j+1] = <a class="code" href="_caldist_8c.html#ac122956f44b6acde5f27e0b3b9bd957f">minimun5</a>(mfinal[i+1][j+1],mfinal[i][j+1]+3,mfinal[i+1][j]+3,mfinal[i][j]+4,mfinal[i][j+2]+4);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        mfinal[i+1][larg-1] = <a class="code" href="_caldist_8c.html#af97439a39d7834efdf9efa7b02e7fd09">minimun4</a>(mfinal[i+1][larg-1],mfinal[i][larg-1]+3,mfinal[i+1][larg-2]+3,mfinal[i][larg-2]+4);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">for</span>(j=larg-2;j&gt;-1;j--){</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        mfinal[haut-1][j] = <a class="code" href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a>(mfinal[haut-1][j],mfinal[haut-1][j+1]+3);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">for</span>(i=haut-2;i&gt;-1;i--){</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        mfinal[i][larg-1] = <a class="code" href="_caldist_8c.html#af97439a39d7834efdf9efa7b02e7fd09">minimun4</a>(mfinal[i][larg-1],(mfinal[i+1][larg-1])+3,(mfinal[i+1][larg-2])+3,(mfinal[i][larg-2])+4);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">for</span>(j=larg-2;j&gt;0;j--){</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            mfinal[i][j] = <a class="code" href="_caldist_8c.html#ac122956f44b6acde5f27e0b3b9bd957f">minimun5</a>(mfinal[i][j],mfinal[i][j+1]+3,mfinal[i+1][j]+3,mfinal[i+1][j+1]+4,mfinal[i+1][j-1]+4);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        mfinal[i][0] = <a class="code" href="_caldist_8c.html#af97439a39d7834efdf9efa7b02e7fd09">minimun4</a>(mfinal[i][0],mfinal[i][1]+3,mfinal[i+1][1]+4,mfinal[i+1][0]+3);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">for</span>(i=0;i&lt;haut;i++){</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">for</span>(j=0;j&lt;larg;j++){</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            mfinal[i][j] = (<span class="keywordtype">short</span> int) mfinal[i][j]/3;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> mfinal;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="prototype_8h.html#a6666598676080036d2f11e3fad54f2b0">   62</a></span>&#160;<span class="keywordtype">short</span> <span class="keywordtype">int</span>** <a class="code" href="_caldist_8c.html#a6666598676080036d2f11e3fad54f2b0">copieMatrice</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span>** matriceOrgine, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">short</span> <span class="keywordtype">int</span> **matricefinal = <a class="code" href="partie1_8c.html#a74146446548f74f43dcabaeea7b55493">allocationMatrice</a>(haut,larg);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> i,j;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">for</span>(i=0;i&lt;haut;i++){</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">for</span>(j=0;j&lt;larg;j++){</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            matricefinal[i][j] = matriceOrgine[i][j];</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">return</span> matricefinal;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="prototype_8h.html#a318af6561ba341de02889ad9dabdac2b">   81</a></span>&#160;<span class="keywordtype">short</span> <span class="keywordtype">int</span> <a class="code" href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb1,<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb2){</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">if</span>(nb1 &lt; nb2) <span class="keywordflow">return</span> nb1;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">return</span> nb2;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="prototype_8h.html#af97439a39d7834efdf9efa7b02e7fd09">   95</a></span>&#160;<span class="keywordtype">short</span> <span class="keywordtype">int</span> <a class="code" href="_caldist_8c.html#af97439a39d7834efdf9efa7b02e7fd09">minimun4</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb1,<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb2,<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb3,<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb4){</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">short</span> <span class="keywordtype">int</span> result = nb1;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    result = <a class="code" href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a>(result,nb2);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    result = <a class="code" href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a>(result,nb3);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    result = <a class="code" href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a>(result,nb4);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="prototype_8h.html#ac122956f44b6acde5f27e0b3b9bd957f">  114</a></span>&#160;<span class="keywordtype">short</span> <span class="keywordtype">int</span> <a class="code" href="_caldist_8c.html#ac122956f44b6acde5f27e0b3b9bd957f">minimun5</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb1,<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb2,<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb3,<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb4,<span class="keywordtype">short</span> <span class="keywordtype">int</span> nb5){</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">short</span> <span class="keywordtype">int</span> result = nb1;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    result = <a class="code" href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a>(result,nb2);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    result = <a class="code" href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a>(result,nb3);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    result = <a class="code" href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a>(result,nb4);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    result = <a class="code" href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a>(result,nb5);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="prototype_8h.html#a01267e9e283e046820857af7c1044fcb">  132</a></span>&#160;<span class="keywordtype">short</span> <span class="keywordtype">int</span>** <a class="code" href="_caldist_8c.html#a01267e9e283e046820857af7c1044fcb">fctCalculDistance</a>(<span class="keywordtype">short</span> <span class="keywordtype">int</span>** matriceOrgine, <span class="keywordtype">int</span> haut, <span class="keywordtype">int</span> larg){</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="partie1_8c.html#ad54b1a3721410441e15f0f5b76e77bf6">seuillageNG</a>(matriceOrgine,haut,larg,128);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="partie1_8c.html#ae9d263fb9a2d9931bcfdc4fa877286a2">negatifImageNG</a>(matriceOrgine,haut,larg);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="_caldist_8c.html#a68194757508adc5f0ed956fd55c364b2">calculDistance</a>(matriceOrgine,haut,larg);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment"> \brief Effectue le du calcul distance pour tout les niveaux de zoom</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment"> * ATTENTION NON FONCTIONNEL !</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="comment"> * \param short int ** matriceOrgine</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="comment"> * \param haut int : Hauteur : Hauteur</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="comment"> * \param larg int : Largeur : Largeur</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment"> * \return short int **</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="comment"> * \author Charles Bong.</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="comment">void fctallCalculDistance(short int ** matriceOrgine, int haut, int larg){</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment">    DonneesImageRGB *img2 = NULL;</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="comment">    short int** temp = NULL;</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="comment">    int i,profmax;</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="comment">    char nom_fichier_destination[150];</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="comment">    seuillageNG(matriceOrgine,haut,larg,128);</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="comment">    negatifImageNG(matriceOrgine,haut,larg);</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="comment">    abquat* arbre = creeArbreNB(matriceOrgine,haut);</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="comment">    profmax = profondeurArbre(arbre);</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="comment">    for(i=0;i&lt;=profmax;i++){</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="comment">        temp = zoomNG(arbre,i);</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="comment">        liberationmatrice(matriceOrgine,arbre-&gt;x1);</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment">        matriceOrgine = temp;</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">        temp = fctCalculDistance(matriceOrgine,haut,larg);</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">        liberationmatrice(matriceOrgine,arbre-&gt;x1);</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">        matriceOrgine = temp;</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">        sprintf(nom_fichier_destination, &quot;Dist.zoom%d.bmp&quot;, i);</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment">        img2 = sauveImageNG(matriceOrgine,arbre-&gt;x1,arbre-&gt;y1);</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">        ecrisBMPRGB_Dans(img2,nom_fichier_destination);</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment">        if(DEBUG == 5) printf(&quot;Image sauvegarde dans (dist) : %s\n&quot;,nom_fichier_destination);</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment">        libereDonneesImageRGB(&amp;img2);</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment">}*/</span></div>
+<div class="ttc" id="_caldist_8c_html_af97439a39d7834efdf9efa7b02e7fd09"><div class="ttname"><a href="_caldist_8c.html#af97439a39d7834efdf9efa7b02e7fd09">minimun4</a></div><div class="ttdeci">short int minimun4(short int nb1, short int nb2, short int nb3, short int nb4)</div><div class="ttdoc">Calcul le minimum entre quatre nombres. </div><div class="ttdef"><b>Definition:</b> <a href="_caldist_8c_source.html#l00095">Caldist.c:95</a></div></div>
+<div class="ttc" id="_caldist_8c_html_a6666598676080036d2f11e3fad54f2b0"><div class="ttname"><a href="_caldist_8c.html#a6666598676080036d2f11e3fad54f2b0">copieMatrice</a></div><div class="ttdeci">short int ** copieMatrice(short int **matriceOrgine, int haut, int larg)</div><div class="ttdoc">Copie une matrice. </div><div class="ttdef"><b>Definition:</b> <a href="_caldist_8c_source.html#l00062">Caldist.c:62</a></div></div>
+<div class="ttc" id="_caldist_8c_html_a01267e9e283e046820857af7c1044fcb"><div class="ttname"><a href="_caldist_8c.html#a01267e9e283e046820857af7c1044fcb">fctCalculDistance</a></div><div class="ttdeci">short int ** fctCalculDistance(short int **matriceOrgine, int haut, int larg)</div><div class="ttdoc">Fonction d&amp;#39;appel du calcul distance. </div><div class="ttdef"><b>Definition:</b> <a href="_caldist_8c_source.html#l00132">Caldist.c:132</a></div></div>
+<div class="ttc" id="partie1_8c_html_ad54b1a3721410441e15f0f5b76e77bf6"><div class="ttname"><a href="partie1_8c.html#ad54b1a3721410441e15f0f5b76e77bf6">seuillageNG</a></div><div class="ttdeci">void seuillageNG(short int **matrice, int haut, int larg, int seuil)</div><div class="ttdoc">Seuil une matrice. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00171">partie1.c:171</a></div></div>
+<div class="ttc" id="prototype_8h_html"><div class="ttname"><a href="prototype_8h.html">prototype.h</a></div><div class="ttdoc">Prototype des fonctions. </div></div>
+<div class="ttc" id="partie1_8c_html_a74146446548f74f43dcabaeea7b55493"><div class="ttname"><a href="partie1_8c.html#a74146446548f74f43dcabaeea7b55493">allocationMatrice</a></div><div class="ttdeci">short int ** allocationMatrice(int haut, int larg)</div><div class="ttdoc">Retour une matrice de dimension haut * larg. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00220">partie1.c:220</a></div></div>
+<div class="ttc" id="_caldist_8c_html_ac122956f44b6acde5f27e0b3b9bd957f"><div class="ttname"><a href="_caldist_8c.html#ac122956f44b6acde5f27e0b3b9bd957f">minimun5</a></div><div class="ttdeci">short int minimun5(short int nb1, short int nb2, short int nb3, short int nb4, short int nb5)</div><div class="ttdoc">Calcul le minimum entre cinq nombres. </div><div class="ttdef"><b>Definition:</b> <a href="_caldist_8c_source.html#l00114">Caldist.c:114</a></div></div>
+<div class="ttc" id="partie1_8c_html_ae9d263fb9a2d9931bcfdc4fa877286a2"><div class="ttname"><a href="partie1_8c.html#ae9d263fb9a2d9931bcfdc4fa877286a2">negatifImageNG</a></div><div class="ttdeci">void negatifImageNG(short int **matrice, int haut, int larg)</div><div class="ttdoc">Retour le negatif d&amp;#39;une matrice. </div><div class="ttdef"><b>Definition:</b> <a href="partie1_8c_source.html#l00085">partie1.c:85</a></div></div>
+<div class="ttc" id="_caldist_8c_html_a68194757508adc5f0ed956fd55c364b2"><div class="ttname"><a href="_caldist_8c.html#a68194757508adc5f0ed956fd55c364b2">calculDistance</a></div><div class="ttdeci">short int ** calculDistance(short int **matriceOrgine, int haut, int larg)</div><div class="ttdoc">Calcul la distance entre des pixel de couleur différente. </div><div class="ttdef"><b>Definition:</b> <a href="_caldist_8c_source.html#l00024">Caldist.c:24</a></div></div>
+<div class="ttc" id="_caldist_8c_html_a318af6561ba341de02889ad9dabdac2b"><div class="ttname"><a href="_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b">minimun</a></div><div class="ttdeci">short int minimun(short int nb1, short int nb2)</div><div class="ttdoc">Calcul le minimum entre deux nombres. </div><div class="ttdef"><b>Definition:</b> <a href="_caldist_8c_source.html#l00081">Caldist.c:81</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="_caldist_8c.html">Caldist.c</a></li>
+    <li class="footer">Généré le Dimanche Novembre 17 2013 19:05:09 pour Projet - Traitement d&#39;une image BMP par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>
