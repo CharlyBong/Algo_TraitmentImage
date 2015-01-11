@@ -1,8 +1,8 @@
 <map id="zoomNG" name="zoomNG">
-<area shape="rect" id="node2" href="$prototype_8h.html#ad9b089f8ab718a8d2ff3f459b748ff74" title="Calcul la profondeur d&#39;un arbre. " alt="" coords="129,29,242,56"/>
-<area shape="rect" id="node3" href="$prototype_8h.html#a98566b8b5bd16a3dde718cea893609ca" title="Converti le k en nn. " alt="" coords="151,80,220,107"/>
-<area shape="rect" id="node4" href="$prototype_8h.html#a0fa6731f07927f703cf1c488d79c2cb6" title="Fonction d&#39;appel de conversion arbre &#45;&gt; matrice NG. " alt="" coords="131,131,240,157"/>
-<area shape="rect" id="node5" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg. " alt="" coords="296,93,416,120"/>
-<area shape="rect" id="node6" href="$prototype_8h.html#aad44154524c9c77b432cb6cf52c7acf4" title="Remplissage de la matrice avec un arbre NG. " alt="" coords="291,168,421,195"/>
-<area shape="rect" id="node7" href="$prototype_8h.html#a1e1d02ab87953add75ff8ebf2e627875" title="Remplissage d&#39;une case de la matrice NG. " alt="" coords="469,168,629,195"/>
+<area shape="rect" id="node2" href="$quaternaire_8c.html#ad9b089f8ab718a8d2ff3f459b748ff74" title="Calcul la profondeur d&#39;un arbre. " alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node3" href="$quaternaire_8c.html#a98566b8b5bd16a3dde718cea893609ca" title="Converti le k en nn. " alt="" coords="149,56,218,83"/>
+<area shape="rect" id="node4" href="$quaternaire_8c.html#a0fa6731f07927f703cf1c488d79c2cb6" title="Fonction d&#39;appel de conversion arbre &#45;&gt; matrice NG. " alt="" coords="129,107,238,133"/>
+<area shape="rect" id="node5" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg. " alt="" coords="293,81,413,108"/>
+<area shape="rect" id="node6" href="$quaternaire_8c.html#aad44154524c9c77b432cb6cf52c7acf4" title="Remplissage de la matrice avec un arbre NG. " alt="" coords="288,132,419,159"/>
+<area shape="rect" id="node7" href="$quaternaire_8c.html#a1e1d02ab87953add75ff8ebf2e627875" title="Remplissage d&#39;une case de la matrice NG. " alt="" coords="467,132,627,159"/>
 </map>

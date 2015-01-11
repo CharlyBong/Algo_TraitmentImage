@@ -1,11 +1,11 @@
 <map id="tousLesZoomsCouleur" name="tousLesZoomsCouleur">
-<area shape="rect" id="node2" href="$prototype_8h.html#ad9b089f8ab718a8d2ff3f459b748ff74" title="Calcul la profondeur d&#39;un arbre. " alt="" coords="434,29,547,56"/>
-<area shape="rect" id="node3" href="$prototype_8h.html#a48b048cacd0128d7485e99ea7d5fd9ba" title="Effectue le zoom sur un arbre RGB. " alt="" coords="240,80,339,107"/>
-<area shape="rect" id="node7" href="$partie1_8c.html#ab913e4cfb04d6f60820e3acbb8d0e179" title="Cree une image avec 3 matrices. " alt="" coords="248,131,331,157"/>
-<area shape="rect" id="node8" href="$_bmp_lib_8c.html#abf1da9548a3aa2a96715f9b5fd7525ab" title="ecrisBMPRGB_Dans" alt="" coords="217,181,361,208"/>
-<area shape="rect" id="node10" href="$_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9" title="libereDonneesImageRGB" alt="" coords="206,232,373,259"/>
-<area shape="rect" id="node4" href="$prototype_8h.html#a98566b8b5bd16a3dde718cea893609ca" title="Converti le k en nn. " alt="" coords="456,80,525,107"/>
-<area shape="rect" id="node5" href="$prototype_8h.html#a5715adb9973e14b37d0b6920cf12f782" title="Remplissage des matrices avec un arbre RGB. " alt="" coords="421,155,560,181"/>
-<area shape="rect" id="node6" href="$prototype_8h.html#a1827c61ee6b5102f8e991fa41290481a" title="Remplissage d&#39;une case des matrices RGB. " alt="" coords="608,155,776,181"/>
-<area shape="rect" id="node9" href="$_outils_lib_8c.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb" title="natif32VersLittle" alt="" coords="433,205,548,232"/>
+<area shape="rect" id="node2" href="$quaternaire_8c.html#ad9b089f8ab718a8d2ff3f459b748ff74" title="Calcul la profondeur d&#39;un arbre. " alt="" coords="431,5,545,32"/>
+<area shape="rect" id="node3" href="$quaternaire_8c.html#a48b048cacd0128d7485e99ea7d5fd9ba" title="Effectue le zoom sur un arbre RGB. " alt="" coords="238,56,337,83"/>
+<area shape="rect" id="node7" href="$partie1_8c.html#ab913e4cfb04d6f60820e3acbb8d0e179" title="Cree une image avec 3 matrices. " alt="" coords="246,107,329,133"/>
+<area shape="rect" id="node8" href="$_bmp_lib_8c.html#abf1da9548a3aa2a96715f9b5fd7525ab" title="ecrisBMPRGB_Dans" alt="" coords="215,157,359,184"/>
+<area shape="rect" id="node10" href="$_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9" title="libereDonneesImageRGB" alt="" coords="204,208,371,235"/>
+<area shape="rect" id="node4" href="$quaternaire_8c.html#a98566b8b5bd16a3dde718cea893609ca" title="Converti le k en nn. " alt="" coords="453,56,523,83"/>
+<area shape="rect" id="node5" href="$quaternaire_8c.html#a5715adb9973e14b37d0b6920cf12f782" title="Remplissage des matrices avec un arbre RGB. " alt="" coords="419,107,557,133"/>
+<area shape="rect" id="node6" href="$quaternaire_8c.html#a1827c61ee6b5102f8e991fa41290481a" title="Remplissage d&#39;une case des matrices RGB. " alt="" coords="605,107,773,133"/>
+<area shape="rect" id="node9" href="$_outils_lib_8c.html#a6c0d8e9b64e3086d9aabc8cb0c5f37cb" title="natif32VersLittle" alt="" coords="431,157,545,184"/>
 </map>

@@ -1,0 +1,6 @@
+<map id="erosionCase" name="erosionCase">
+<area shape="rect" id="node2" href="$prototype_8h.html#a74f1cee58a0cba69e6279032f98b1aad" title="Effectue un gradient sur une case de la matrice sur une dimension variable. " alt="" coords="148,5,247,32"/>
+<area shape="rect" id="node5" href="$prototype_8h.html#aefec5606a1765b0f347de969a995d551" title="Effectue une érosion sur une image avec un outil de dimension variable. " alt="" coords="297,56,387,83"/>
+<area shape="rect" id="node3" href="$prototype_8h.html#adc93fe086109c5c8b7c2c4f3848b0c96" title="Effectue un gradient sur une image avec un outil de dimension variable. " alt="" coords="295,5,389,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main du programme. " alt="" coords="437,31,488,57"/>
+</map>

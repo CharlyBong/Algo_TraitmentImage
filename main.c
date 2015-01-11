@@ -36,20 +36,20 @@ int main(int argc, char *argv[])
     etatImgNB = 0;
     do
 	{
-		choixMenu(nom_fichier);
+		choixMenu(nom_fichier,valeur);
       	scanf("%d", &valeur);
 		switch (valeur)
 		{
 			case 1:
 			    if(etatImgNB == 0){
                     negatifImage(matriceR,matriceG,matriceB,img->hauteurImage,img->largeurImage);
-                    printf("Votre image viens de passer en negatif\n");
+                    printf("Votre image vient de passer en negatif\n");
                 }
                 else printf("Passer en Couleur !!!\n");
                 break;
 			case 2:
                 couleur2NG(matriceR,matriceG,matriceB,img->hauteurImage,img->largeurImage);
-                printf("Votre image viens de passer en NB\n");
+                printf("Votre image vient de passer en NB\n");
                 etatImgNB = 1;
 				break;
 			case 3:
@@ -82,7 +82,7 @@ int main(int argc, char *argv[])
                     matriceR = matriceR2;
                     matriceG = matriceG2;
                     matriceB = matriceB2;
-                    printf("Votre image (couleur) a ete liser\n");
+                    printf("Votre image (couleur) a ete lisee\n");
                 }
                 else printf("Passer en Couleur Avant !!!\n");
 
@@ -177,8 +177,171 @@ int main(int argc, char *argv[])
                 else printf("Passer en Noir et Blanc Avant !!!\n");
 				break;
 
-            // Gestion de fichier !
+            // TP2 M1
 
+            case 21://échantillonnage
+                if(etatImgNB == 1){
+                    do{
+                        printf("Entrer le niveau d'echantillonnage (entre 2 et 255) ?");
+                        scanf("%d", &seuil);
+                    }while(seuil<1 ||seuil>255);
+                    short int** temp = echantillonnagenb(matriceR,img->hauteurImage,img->largeurImage,seuil);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Echantillonnage realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 22://quantification
+                if(etatImgNB == 1){
+                    do{
+                        printf("Entrer le niveau de quantification (entre 2 et 255) ?");
+                        scanf("%d", &seuil);
+                    }while(seuil<2 ||seuil>255);
+                    //quantificationnb(matriceR,img->hauteurImage,img->largeurImage,seuil);
+                    short int** temp = quantificationnb(matriceR,img->hauteurImage,img->largeurImage,seuil);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Quantification realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 23://statistiques
+                if(etatImgNB == 1){
+                    statistiquenb(matriceR,img->hauteurImage,img->largeurImage);
+                    printf("statistiques realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 24://histogramme
+                if(etatImgNB == 1){
+                    short int** temp = histogrammenb(matriceR,img->hauteurImage,img->largeurImage);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    img->hauteurImage = 256;
+                    img->largeurImage = 256;
+                    printf("histogramme realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+
+            // TP3 M1
+
+            case 31://filtre pondéré moyenneur
+                if(etatImgNB == 1){
+                    short int** temp = filtrePondMoy(matriceR,img->hauteurImage,img->largeurImage);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage pondere moyenneur realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 32:// filtre pondéré Gaussien
+                if(etatImgNB == 1){
+                    short int** temp = filtrePondGauss(matriceR,img->hauteurImage,img->largeurImage);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage pondere Gaussien realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 33:// filtre Gradient Roberts
+                if(etatImgNB == 1){
+                    short int** temp = filtreGraRoberts(matriceR,img->hauteurImage,img->largeurImage);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage Gradiant Roberts realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 34:// filtre Gradient Prewitt
+                if(etatImgNB == 1){
+                    short int** temp = filtreGraPrewitt(matriceR,img->hauteurImage,img->largeurImage);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage Gradiant Prewitt realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 35:// filtre Gradient Sobel
+                if(etatImgNB == 1){
+                    short int** temp = filtreGraSobel(matriceR,img->hauteurImage,img->largeurImage);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage Gradiant Sobel realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 36:// filtre Laplacien
+                if(etatImgNB == 1){
+                    short int** temp = filtreLaplacien(matriceR,img->hauteurImage,img->largeurImage);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage Laplacien realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 37:// filtre Médian
+                if(etatImgNB == 1){
+                    short int** temp = filtreMedian(matriceR,img->hauteurImage,img->largeurImage);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage median realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 38:// filtre morphologique dilatation
+                if(etatImgNB == 1){
+                     do{
+                        printf("Entrer les dimensions de l'outil (3 ou 5)?");
+                        scanf("%d", &seuil);
+                    }while(!(seuil==3 || seuil==5));
+                    short int** temp = filtreDilatation(matriceR,img->hauteurImage,img->largeurImage,seuil);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage morphologique dilatation realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 39:// filtre morphologique erosion
+                if(etatImgNB == 1){
+                    do{
+                        printf("Entrer les dimensions de l'outil (3 ou 5)?");
+                        scanf("%d", &seuil);
+                    }while(!(seuil==3 || seuil==5));
+                    short int** temp = filtreErosion(matriceR,img->hauteurImage,img->largeurImage,seuil);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage morphologique erosion realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            case 40:// filtre morphologique gradient
+                if(etatImgNB == 1){
+                    do{
+                        printf("Entrer les dimensions de l'outil (3 ou 5)?");
+                        scanf("%d", &seuil);
+                    }while(!(seuil==3 || seuil==5));
+                    short int** temp = filtreGradient(matriceR,img->hauteurImage,img->largeurImage,seuil);
+                    liberationmatrice(matriceR,img->hauteurImage);
+                    matriceR = temp;
+                    printf("Filtrage morphologique gradient realisee !\n");
+                }
+                else printf("Passer en Noir et Blanc Avant !!!\n");
+				break;
+            // Gestion de fichier !
+            case 50:
+                if(arbre!= NULL) free(arbre);
+                arbre = NULL;
+			    liberationtrimatrice(matriceR,matriceG,matriceB,img->hauteurImage);
+			    strcpy(nom_fichier,"toshy.bmp");
+                changeimage(img,nom_fichier);
+                matriceR = allocationMatrice(img->hauteurImage,img->largeurImage);
+                matriceG = allocationMatrice(img->hauteurImage,img->largeurImage);
+                matriceB = allocationMatrice(img->hauteurImage,img->largeurImage);
+                cree3matrices(img,matriceR,matriceG,matriceB);
+                etatImgNB = 0;
+				break;
             case 51:
                 if(arbre!= NULL) free(arbre);
                 arbre = NULL;
@@ -264,8 +427,21 @@ int main(int argc, char *argv[])
             case 0:
 				valeur = 0 ;
                 break;
+            case 99 :
+                break;
+            case 110 :
+                break;
+            case 120 :
+                break;
+            case 130 :
+                break;
+            case 140 :
+                break;
+            case 150 :
+                break;
             default:
-                   printf("  Valeur erronee \n") ;
+               printf("  Valeur erronee \n") ;
+               break;
 		}
 	}
 	while ( valeur != 0 );
@@ -283,41 +459,81 @@ int main(int argc, char *argv[])
  *  Affiche le menu de sélection
  *
  * \param  nomfichier Char*: permet l'affichage du fichier charger
+ * \param  sousmenu int: permet de définir l'affichage du sous-menu
  * \return void
  * \author Charles Bong.
  */
 
-void choixMenu(char * nomfichier){
+void choixMenu(char * nomfichier,int sousmenu){
 	printf("\n\t --- CIR_3 - Mini-Projet: BMP---\n");
 	printf("\n\t --- %s ---\n\n",nomfichier);
 
-	printf("\t1   --> Negatif d'une image\n");
-	printf("\t2   --> Transformation en niv de gris\n");
-	printf("\t3   --> Seuillage\n");
-	printf("\t4   --> Lisage NB\n");
-	printf("\t5   --> Lisage Couleur\n");
+	switch(sousmenu){
+    case 110 :
+        printf("\t110 <-> Sous-menu Fonctionnalites de Base :\n");
+        printf("\t1   --> Negatif d'une image\n");
+        printf("\t2   --> Transformation en niv de gris\n");
+        printf("\t3   --> Seuillage\n");
+        printf("\t4   --> Lisage NB\n");
+        printf("\t5   --> Lisage Couleur\n");
+        break;
+    case 120 :
+        printf("\t120 <-> Sous-menu Arbres quaternaire :\n");
+        printf("\t6   --> Creation Arbre NB\n");
+        printf("\t7   --> Creation Matrice a partir d'un arbre NB\n");
 
-	printf("\t6   --> Creation Arbre NB\n");
-	printf("\t7   --> Creation Matrice a partir d'un arbre NB\n");
+        printf("\t8   --> Creation Arbre NG\n");
+        printf("\t9   --> Creation Matrice a partir d'un arbre NG\n");
 
-	printf("\t8   --> Creation Arbre NG\n");
-	printf("\t9   --> Creation Matrice a partir d'un arbre NG\n");
+        printf("\t10  --> Creation Arbre RVB\n");
+        printf("\t11  --> Creation Matrice a partir d'un arbre RVB\n");
+        printf("\t12  --> Zoom 2^-k\n");
+        printf("\t13  --> Tous les Zoom 2^-k\n");
 
-	printf("\t10  --> Creation Arbre RVB\n");
-	printf("\t11  --> Creation Matrice a partir d'un arbre RVB\n");
-	printf("\t12  --> Zoom 2^-k\n");
-	printf("\t13  --> Tous les Zoom 2^-k\n");
-
-	printf("\t15  --> Calcul Distance\n");
-
+        printf("\t15  --> Calcul Distance\n");
+        break;
+    case 130:
+        printf("\t130 <-> Sous-menu Stats et echantillonnage NB (v2) :\n");
+        printf("\t21  --> Echantillonnage NB\n");
+        printf("\t22  --> QuantificationNB\n");
+        printf("\t23  --> Statistique NB\n");
+        printf("\t24  --> Histogramme NB\n");
+        break;
+    case 140:
+        printf("\t140 <-> Sous-menu Filtrages NB (v2) :\n");
+        printf("\t31  --> Filtre pondere moyenneur\n");
+        printf("\t32  --> Filtre pondere Gaussien\n");
+        printf("\t33  --> Filtre gradient Roberts\n");
+        printf("\t34  --> Filtre gradient Prewitt\n");
+        printf("\t35  --> Filtre gradient Sobel\n");
+        printf("\t36  --> Filtre Laplacien\n");
+        printf("\t37  --> Filtre median\n");
+        printf("\t38  --> Filtre morphologique dilatation\n");
+        printf("\t39  --> Filtre morphologique erosion\n");
+        printf("\t40  --> Filtre morphologique gradient\n");
+        break;
+    case 150:
+        printf("\t150 <-> Sous-menu Chargement Rapide :\n");
+        printf("\t50  --> Chargement de toshy.bmp\n");
+        printf("\t51  --> Chargement de hoodoos.bmp\n");
+        printf("\t52  --> Chargement de horseshoe.bmp\n");
+        printf("\t53  --> Chargement de nenuphar.bmp\n");
+        break;
+    default:
+        printf("\t110 --> Sous-menu Fonctionnalites de Base\n");
+        printf("\t120 --> Sous-menu Arbres quaternaire\n");
+        printf("\t130 --> Sous-menu Stats et echantillonnage NB (v2)\n");
+        printf("\t140 --> Sous-menu Filtrages NB (v2)\n");
+        printf("\t150 --> Sous-menu Chargement Rapide\n");
+        break;
+	}
 	printf("\t----------------------\n");
-	//printf("\t51  --> Chargement de hoodoos.bmp\n");
-	//printf("\t52  --> Chargement de horseshoe.bmp\n");
-	//printf("\t53  --> Chargement de nenuphar.bmp\n");
+
 
 	printf("\t55  --> Chargement du fichier de votre choix\n");
 	printf("\t60  --> Enregistrement\n");
 	printf("\t61  --> Chargement du fichier d'enregistrement\n");
 
-	printf("\t0   --> Quitter ?\n");
+    printf("\n\t99  --> Retour\n");
+	printf("\t0   --> Quitter\n");
 }

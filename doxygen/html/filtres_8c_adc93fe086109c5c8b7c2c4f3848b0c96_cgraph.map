@@ -1,0 +1,11 @@
+<map id="filtreGradient" name="filtreGradient">
+<area shape="rect" id="node2" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg. " alt="" coords="148,5,268,32"/>
+<area shape="rect" id="node3" href="$filtres_8c.html#a74f1cee58a0cba69e6279032f98b1aad" title="Effectue un gradient sur une case de la matrice sur une dimension variable. " alt="" coords="159,56,257,83"/>
+<area shape="rect" id="node10" href="$partie1_8c.html#a106518d4a41c16e3a633d2963200b919" title="Libération d&#39;une matrice. " alt="" coords="149,107,267,133"/>
+<area shape="rect" id="node4" href="$filtres_8c.html#a34cb964e90c76c1fee8f98999589ebcb" title="Effectue une dilatation sur une case de la matrice sur une dimension variable. " alt="" coords="316,31,420,57"/>
+<area shape="rect" id="node7" href="$filtres_8c.html#ab531caf4f703d24457c882c4efd213ae" title="Effectue une érosion sur une case de la matrice sur une dimension variable. " alt="" coords="321,81,415,108"/>
+<area shape="rect" id="node5" href="$_caldist_8c.html#abd278d2e0312f40a659ad8b3fc134569" title="Calcul le maximum dans un tableau. " alt="" coords="468,31,564,57"/>
+<area shape="rect" id="node6" href="$_caldist_8c.html#a70a7da388f16e668eb640b0755b09255" title="Calcul le maximum entre deux nombres. " alt="" coords="612,31,687,57"/>
+<area shape="rect" id="node8" href="$_caldist_8c.html#a4a2ee6333feee58bf91682ccfad34847" title="Calcul le minimum dans un tableau. " alt="" coords="470,81,562,108"/>
+<area shape="rect" id="node9" href="$_caldist_8c.html#a318af6561ba341de02889ad9dabdac2b" title="Calcul le minimum entre deux nombres. " alt="" coords="614,81,685,108"/>
+</map>

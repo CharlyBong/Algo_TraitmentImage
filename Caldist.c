@@ -83,6 +83,20 @@ short int minimun(short int nb1,short int nb2){
     else return nb2;
 }
 
+/** \brief Calcul le maximum entre deux nombres
+ *
+ * \param nb1 short int
+ * \param nb2 short int
+ * \return short int
+ *
+ * \author Charles Bong.
+ */
+short int maximun(short int nb1,short int nb2){
+    if(nb1 > nb2) return nb1;
+    else return nb2;
+}
+
+
 /** \brief Calcul le minimum entre quatre nombres
  * \param nb1 short int
  * \param nb2 short int
@@ -117,6 +131,36 @@ short int minimun5(short int nb1,short int nb2,short int nb3,short int nb4,short
     result = minimun(result,nb3);
     result = minimun(result,nb4);
     result = minimun(result,nb5);
+    return result;
+}
+
+/** \brief Calcul le minimum dans un tableau
+ *
+ * \param tab short int *
+ * \param dim int
+ * \return short int
+ *
+ * \author Charles Bong.
+ */
+short int minimunTab(short int * tab,int dim){
+    short int result = tab[0];
+    int i;
+    for(i=0;i<dim;i++) result = minimun(result,tab[1]);
+    return result;
+}
+
+/** \brief Calcul le maximum dans un tableau
+ *
+ * \param tab short int *
+ * \param dim int
+ * \return short int
+ *
+ * \author Charles Bong.
+ */
+short int maximunTab(short int * tab,int dim){
+    short int result = tab[0];
+    int i;
+    for(i=0;i<dim;i++) result = maximun(result,tab[1]);
     return result;
 }
 

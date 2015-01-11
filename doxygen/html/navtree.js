@@ -1,31 +1,59 @@
 var NAVTREE =
 [
   [ "Projet - Traitement d'une image BMP", "index.html", [
-    [ "Projet d'Algorithme", "index.html", [
+    [ "Présentation", "index.html", [
       [ "Introduction", "index.html#intro_sec", null ],
-      [ "Utilisation", "index.html#install_sec", null ],
-      [ "Objectifs", "index.html#obj_sec", [
-        [ "Première partie", "index.html#p1_obj_sec", null ],
-        [ "Seconde partie", "index.html#p2_obj_sec", null ],
-        [ "Troisième partie", "index.html#p3_obj_sec", null ],
-        [ "Quatrième partie", "index.html#p4_obj_sec", null ],
-        [ "Cinquième partie", "index.html#p5_obj_sec", null ]
+      [ "Menu de l'application", "index.html#menu_sec", null ],
+      [ "Utilisation de vos propres images", "index.html#utilisa_sec", null ],
+      [ "Sommaire", "index.html#Sommaire_sec", null ]
+    ] ],
+    [ "Projet d'Algorithme - CIR_3", "_c_i_r3.html", [
+      [ "Introduction", "_c_i_r3.html#introcir3_sec", null ],
+      [ "Objectifs", "_c_i_r3.html#obj_sec", [
+        [ "Première partie", "_c_i_r3.html#p1_obj_sec", null ],
+        [ "Seconde partie", "_c_i_r3.html#p2_obj_sec", null ],
+        [ "Troisième partie", "_c_i_r3.html#p3_obj_sec", null ],
+        [ "Quatrième partie", "_c_i_r3.html#p4_obj_sec", null ],
+        [ "Cinquième partie", "_c_i_r3.html#p5_obj_sec", null ]
       ] ],
-      [ "Exemples - Comparatifs", "index.html#exmp_sec", [
-        [ "Lissage Couleur", "index.html#liss_exmp_sec", null ],
-        [ "Quaternaire Couleur", "index.html#quatcou_exmp_sec", null ],
-        [ "Epsilon", "index.html#epsi_exmp_sec", null ],
-        [ "Calcul de distance", "index.html#calculdist_exmp_sec", null ]
+      [ "Exemples - Comparatifs", "_c_i_r3.html#exmp_sec", [
+        [ "Lissage Couleur", "_c_i_r3.html#liss_exmp_sec", null ],
+        [ "Quaternaire Couleur", "_c_i_r3.html#quatcou_exmp_sec", null ],
+        [ "Epsilon", "_c_i_r3.html#epsi_exmp_sec", null ],
+        [ "Calcul de distance", "_c_i_r3.html#calculdist_exmp_sec", null ]
       ] ],
-      [ "Détails", "index.html#details_sec", [
-        [ "Lissage", "index.html#liss_details_sec", null ],
-        [ "Calcul Médiane NG", "index.html#medNG_details_sec", null ],
-        [ "Calcul Médiane Couleur", "index.html#medRGB_details_sec", null ],
-        [ "Homogénéité d'un carré", "index.html#hom_details_sec", null ],
-        [ "Création matrice", "index.html#matquat_details_sec", null ],
-        [ "Le Zoom", "index.html#zoom_details_sec", null ]
+      [ "Détails", "_c_i_r3.html#details_sec", [
+        [ "Lissage", "_c_i_r3.html#liss_details_sec", null ],
+        [ "Calcul Médiane NG", "_c_i_r3.html#medNG_details_sec", null ],
+        [ "Calcul Médiane Couleur", "_c_i_r3.html#medRGB_details_sec", null ],
+        [ "Homogénéité d'un carré", "_c_i_r3.html#hom_details_sec", null ],
+        [ "Création matrice", "_c_i_r3.html#matquat_details_sec", null ],
+        [ "Le Zoom", "_c_i_r3.html#zoom_details_sec", null ]
       ] ],
-      [ "Conclusion", "index.html#concl_sec", null ]
+      [ "Conclusion", "_c_i_r3.html#concl_sec", null ]
+    ] ],
+    [ "Reprise du projet - M1", "_m1.html", [
+      [ "Introduction", "_m1.html#introm1_sec", null ],
+      [ "Échantillonnage", "_m1.html#echan_sec", [
+        [ "Traitement", "_m1.html#echan_traitement_sec", null ],
+        [ "Comparaison des résultats", "_m1.html#echan_resul_sec", null ]
+      ] ],
+      [ "Quantification", "_m1.html#quan_sec", [
+        [ "Traitement", "_m1.html#quan_traitement_sec", null ],
+        [ "Comparaison des résultats", "_m1.html#quan_resul_sec", null ]
+      ] ],
+      [ "Statistiques & Histogramme", "_m1.html#Stats_sec", [
+        [ "Statistiques", "_m1.html#Stats_Stats_sec", null ],
+        [ "Histogramme", "_m1.html#Stats_histo_sec", null ]
+      ] ],
+      [ "Filtrages par convolution", "_m1.html#Convol_sec", [
+        [ "Listes des grilles de filtrages", "_m1.html#Convol_grille_sec", null ]
+      ] ],
+      [ "Filtre Médian", "_m1.html#median_sec", null ],
+      [ "Filtres Morphologique", "_m1.html#Morpho_sec", [
+        [ "Traitement algorithmique", "_m1.html#Morpho_trait_sec", null ],
+        [ "Explications", "_m1.html#Morpho_expli_sec", null ]
+      ] ]
     ] ],
     [ "Structures de données", null, [
       [ "Structures de données", "annotated.html", "annotated" ],
@@ -50,13 +78,12 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_bmp_lib_8c.html"
+"_bmp_lib_8c.html",
+"quaternaire_8c.html#a4d6a727b3144c018d370a0158991fd71"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'cliquez pour désactiver la synchronisation du panel';
+var SYNCOFFMSG = 'cliquez pour activer la synchronisation du panel';
 var navTreeSubIndices = new Array();
 
 function getData(varName)
@@ -77,6 +104,21 @@ function stripPath2(uri)
   var s = uri.substring(i+1);
   var m = uri.substring(0,i+1).match(/\/d\w\/d\w\w\/$/);
   return m ? uri.substring(i-6) : s;
+}
+
+function hashValue()
+{
+  return $(location).attr('hash').substring(1).replace(/[^\w\-]/g,'');
+}
+
+function hashUrl()
+{
+  return '#'+hashValue();
+}
+
+function pathName()
+{
+  return $(location).attr('pathname').replace(/[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]/g, '');
 }
 
 function localStorageSupported()
@@ -101,7 +143,7 @@ function deleteLink()
 {
   if (localStorageSupported()) {
     window.localStorage.setItem('navpath','');
-  } 
+  }
 }
 
 function cachedLink()
@@ -163,7 +205,7 @@ function createIndent(o,domNode,node,level)
     span.style.display = 'inline-block';
     span.style.width   = 16*(level+1)+'px';
     span.style.height  = '22px';
-    span.innerHTML = '&nbsp;';
+    span.innerHTML = '&#160;';
     domNode.appendChild(span);
   } 
 }
@@ -173,11 +215,13 @@ var animationInProgress = false;
 function gotoAnchor(anchor,aname,updateLocation)
 {
   var pos, docContent = $('#doc-content');
-  if (anchor.parent().attr('class')=='memItemLeft' ||
-      anchor.parent().attr('class')=='fieldtype' ||
-      anchor.parent().is(':header')) 
+  var ancParent = $(anchor.parent());
+  if (ancParent.hasClass('memItemLeft') ||
+      ancParent.hasClass('fieldname') ||
+      ancParent.hasClass('fieldtype') ||
+      ancParent.is(':header'))
   {
-    pos = anchor.parent().position().top;
+    pos = ancParent.position().top;
   } else if (anchor.position()) {
     pos = anchor.position().top;
   }
@@ -235,7 +279,7 @@ function newNode(o, po, text, link, childrenData, lastNode)
     a.className = stripPath(link.replace('#',':'));
     if (link.indexOf('#')!=-1) {
       var aname = '#'+link.split('#')[1];
-      var srcPage = stripPath($(location).attr('pathname'));
+      var srcPage = stripPath(pathName());
       var targetPage = stripPath(link.split('#')[0]);
       a.href = srcPage!=targetPage ? url : "javascript:void(0)"; 
       a.onclick = function(){
@@ -329,14 +373,13 @@ function glowEffect(n,duration)
 
 function highlightAnchor()
 {
-  var aname = $(location).attr('hash');
+  var aname = hashUrl();
   var anchor = $(aname);
   if (anchor.parent().attr('class')=='memItemLeft'){
-    var rows = $('.memberdecls tr[class$="'+
-               window.location.hash.substring(1)+'"]');
+    var rows = $('.memberdecls tr[class$="'+hashValue()+'"]');
     glowEffect(rows.children(),300); // member without details
-  } else if (anchor.parents().slice(2).prop('tagName')=='TR') {
-    glowEffect(anchor.parents('div.memitem'),1000); // enum value
+  } else if (anchor.parent().attr('class')=='fieldname'){
+    glowEffect(anchor.parent().parent(),1000); // enum value
   } else if (anchor.parent().attr('class')=='fieldtype'){
     glowEffect(anchor.parent().parent(),1000); // struct field
   } else if (anchor.parent().is(":header")) {
@@ -351,7 +394,7 @@ function selectAndHighlight(hash,n)
 {
   var a;
   if (hash) {
-    var link=stripPath($(location).attr('pathname'))+':'+hash.substring(1);
+    var link=stripPath(pathName())+':'+hash.substring(1);
     a=$('.item a[class$="'+link+'"]');
   }
   if (a && a.length) {
@@ -462,14 +505,13 @@ function navTo(o,root,hash,relpath)
   if (link) {
     var parts = link.split('#');
     root = parts[0];
-    if (parts.length>1) hash = '#'+parts[1];
+    if (parts.length>1) hash = '#'+parts[1].replace(/[^\w\-]/g,'');
     else hash='';
   }
   if (hash.match(/^#l\d+$/)) {
     var anchor=$('a[name='+hash.substring(1)+']');
     glowEffect(anchor.parent(),1000); // line number
     hash=''; // strip line number anchors
-    //root=root.replace(/_source\./,'.'); // source link to doc link
   }
   var url=root+hash;
   var i=-1;
@@ -503,7 +545,7 @@ function toggleSyncButton(relpath)
   if (navSync.hasClass('sync')) {
     navSync.removeClass('sync');
     showSyncOff(navSync,relpath);
-    storeLink(stripPath2($(location).attr('pathname'))+$(location).attr('hash'));
+    storeLink(stripPath2(pathName())+hashUrl());
   } else {
     navSync.addClass('sync');
     showSyncOn(navSync,relpath);
@@ -543,7 +585,7 @@ function initNavTree(toroot,relpath)
   }
 
   $(window).load(function(){
-    navTo(o,toroot,window.location.hash,relpath);
+    navTo(o,toroot,hashUrl(),relpath);
     showRoot();
   });
 
@@ -551,21 +593,20 @@ function initNavTree(toroot,relpath)
      if (window.location.hash && window.location.hash.length>1){
        var a;
        if ($(location).attr('hash')){
-         var clslink=stripPath($(location).attr('pathname'))+':'+
-                               $(location).attr('hash').substring(1);
-         a=$('.item a[class$="'+clslink+'"]');
+         var clslink=stripPath(pathName())+':'+hashValue();
+         a=$('.item a[class$="'+clslink.replace(/</g,'\\3c ')+'"]');
        }
        if (a==null || !$(a).parent().parent().hasClass('selected')){
          $('.item').removeClass('selected');
          $('.item').removeAttr('id');
        }
-       var link=stripPath2($(location).attr('pathname'));
-       navTo(o,link,$(location).attr('hash'),relpath);
+       var link=stripPath2(pathName());
+       navTo(o,link,hashUrl(),relpath);
      } else if (!animationInProgress) {
        $('#doc-content').scrollTop(0);
        $('.item').removeClass('selected');
        $('.item').removeAttr('id');
-       navTo(o,toroot,window.location.hash,relpath);
+       navTo(o,toroot,hashUrl(),relpath);
      }
   })
 }

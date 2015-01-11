@@ -1,4 +1,14 @@
 <map id="liberationmatrice" name="liberationmatrice">
-<area shape="rect" id="node2" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main du programme. " alt="" coords="347,5,397,32"/>
-<area shape="rect" id="node3" href="$quaternaire_8c.html#ad8bb52314936ad1d1ad641c305d7792d" title="Réalise tout les niveau de zoom d&#39;un arbre NG. " alt="" coords="171,31,298,57"/>
+<area shape="rect" id="node2" href="$prototype_8h.html#ae5299087eb8255b465ad8db59f6e4839" title="Effectue une convolution sur une image, à partir d&#39;un outil de dimension variable le boolen div indiq..." alt="" coords="191,157,277,184"/>
+<area shape="rect" id="node4" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main du programme. " alt="" coords="508,259,559,285"/>
+<area shape="rect" id="node10" href="$prototype_8h.html#a6f751ddca5503443e6f1667ae4f1895c" title="Effectue une dilatation sur une image avec un outil de dimension variable. " alt="" coords="184,360,284,387"/>
+<area shape="rect" id="node11" href="$prototype_8h.html#aefec5606a1765b0f347de969a995d551" title="Effectue une érosion sur une image avec un outil de dimension variable. " alt="" coords="189,411,279,437"/>
+<area shape="rect" id="node12" href="$prototype_8h.html#adc93fe086109c5c8b7c2c4f3848b0c96" title="Effectue un gradient sur une image avec un outil de dimension variable. " alt="" coords="187,461,281,488"/>
+<area shape="rect" id="node13" href="$quaternaire_8c.html#ad8bb52314936ad1d1ad641c305d7792d" title="Réalise tout les niveau de zoom d&#39;un arbre NG. " alt="" coords="171,512,297,539"/>
+<area shape="rect" id="node3" href="$prototype_8h.html#a19db973ff01975a8fb9d826104b72b63" title="Outil de filtrage pour une convolution, pour effectuer une pondération moyenneur. ..." alt="" coords="352,5,453,32"/>
+<area shape="rect" id="node5" href="$prototype_8h.html#ab30046d2ef364b8b529041e0f143228b" title="Outil de filtrage pour une convolution, pour effectuer une pondération de Gauss. " alt="" coords="345,56,460,83"/>
+<area shape="rect" id="node6" href="$prototype_8h.html#a31b55f7a91e23cbfe20cf35cec74c64c" title="Outil de filtrage pour une convolution, pour effectuer un gradient de Roberts. " alt="" coords="347,107,459,133"/>
+<area shape="rect" id="node7" href="$prototype_8h.html#acb7c60914c3fdac39f1dad89e0bacf86" title="Outil de filtrage pour une convolution, pour effectuer une pondération de Prewitt. " alt="" coords="349,157,456,184"/>
+<area shape="rect" id="node8" href="$prototype_8h.html#a0c820e8e1fe7ece1952da9541bc1e7ef" title="Outil de filtrage pour une convolution, pour effectuer une pondération de Sobel. " alt="" coords="353,208,453,235"/>
+<area shape="rect" id="node9" href="$prototype_8h.html#a695691e0c840ff86d9c9f68efe9f8a2e" title="Outil de filtrage pour une convolution, pour effectuer un Laplacien. " alt="" coords="352,259,453,285"/>
 </map>

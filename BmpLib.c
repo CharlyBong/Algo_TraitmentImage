@@ -46,14 +46,14 @@ DonneesImageRGB *lisBMPRGB(char *nom)
 {
 	DonneesImageRGB *donneesImage = (DonneesImageRGB*)calloc(1, sizeof(DonneesImageRGB));
 	bool toutOK = false;
-	
+
 	if
 		(donneesImage != NULL)
 	{
 		/* donneesImage != NULL */
 
 		FILE *fichierBMP;
-		
+
 		if
 			((fichierBMP = fopen(nom, "rb")) != NULL)
 		{
@@ -65,13 +65,13 @@ DonneesImageRGB *lisBMPRGB(char *nom)
 			{
 				/* ... alors la suite du fichier peut etre interpretee */
 				int fileHeader[3];
-				
+
 				if
 					(fread(fileHeader, sizeof(fileHeader), 1, fichierBMP) == 1)
 				{
 					/* Lecture du header de fichier */
 					int offsetDonnees = little32VersNatif(fileHeader[2]);
-					
+
 					int bitmapInfoHeader[10];
 					if
 						(fread(bitmapInfoHeader, sizeof(bitmapInfoHeader), 1, fichierBMP) == 1)
@@ -90,23 +90,23 @@ DonneesImageRGB *lisBMPRGB(char *nom)
 								donneesImage->hauteurImage = -donneesImage->hauteurImage;
 								hautVersBas = true;
 							}
-							
+
 							/* On alloue la place pour lire les donnes */
 							if
 								((donneesImage->donneesRGB = (unsigned char *)malloc((unsigned int)donneesImage->largeurImage*(unsigned int)donneesImage->hauteurImage*3)) != NULL)
 							{
 								/* donneesImage->donneesRGB != NULL */
-								
+
 								unsigned char *scanline;
 								/* Une scanline doit avoir une taille multiple de quatre octets */
 								int tailleScanLine = tailleScanLineRGB(donneesImage->largeurImage);
-								
+
 								/* On alloue la place pour lire chaque scanline */
 								if
 									((scanline = (unsigned char *)malloc((unsigned int)tailleScanLine)) != NULL)
 								{
 									/* scanline != NULL */
-									
+
 									/* On se positionne sur le debut des donnees a lire */
 									if
 										(fseek(fichierBMP, offsetDonnees, SEEK_SET) == 0)
@@ -117,7 +117,7 @@ DonneesImageRGB *lisBMPRGB(char *nom)
 															(hautVersBas ?
 															donneesImage->largeurImage*3*(donneesImage->hauteurImage-1) :
 															0);
-										
+
 										/* Tout s'est bien passe jusqu'a present */
 										toutOK = true;
 										for
@@ -142,7 +142,7 @@ DonneesImageRGB *lisBMPRGB(char *nom)
 									/* Quoi qu'il arrive il faut liberer le buffer memoire de lecture d'une scanline */
 									free(scanline);
 								}
-								
+
 								/* Si tout ne s'est pas bien passe, il faut liberer l'espace memoire pour stocker l'image */
 								if
 									(!toutOK)
@@ -154,12 +154,12 @@ DonneesImageRGB *lisBMPRGB(char *nom)
 					}
 				}
 			}
-			
-			
+
+
 			/* Quoi qu'il arrive il faut fermer le fichier */
 			fclose(fichierBMP);
 		}
-		
+
 		/* Si tout ne s'est pas bien passe on libere les donnees image et on les met a NULL */
 		if
 			(!toutOK)
@@ -168,7 +168,7 @@ DonneesImageRGB *lisBMPRGB(char *nom)
 			donneesImage = NULL;
 		}
 	}
-	
+
 	return donneesImage;
 }
 
@@ -178,7 +178,7 @@ bool ecrisBMPRGB_Dans(DonneesImageRGB *donneesImage, char *nom)
 {
 	FILE *fichierBMP;
 	bool toutOK = false;
-	
+
 	if
 		((fichierBMP = fopen(nom, "wb")) != NULL)
 	{
@@ -190,7 +190,7 @@ bool ecrisBMPRGB_Dans(DonneesImageRGB *donneesImage, char *nom)
 		{
 			int headerBMP[14]; /* Sert a memoriser toutes les informations relatives au BMP */
 			int tailleScanLine = tailleScanLineRGB(donneesImage->largeurImage);
-			
+
 			memset(headerBMP, 0, 14*4);
 			/* Taille du fichier */
 			headerBMP[0] = natif32VersLittle(2+12+40+4+tailleScanLine*donneesImage->hauteurImage);
@@ -214,32 +214,32 @@ bool ecrisBMPRGB_Dans(DonneesImageRGB *donneesImage, char *nom)
 			headerBMP[11] = 0;
 			headerBMP[12] = 0;
 			headerBMP[13] = 0;
-			
+
 			/* Ecriture du header de fichier */
 			if
 				(fwrite(headerBMP, 14*4, 1, fichierBMP) == 1)
 			{
 				unsigned char *scanline;
-				
+
 				/* On alloue la place pour ecrire chaque scanline */
 				if
 					((scanline = (unsigned char *)malloc((unsigned int)tailleScanLine)) != NULL)
 				{
 					/* scanline != NULL */
-					
+
 					int indexLigne;
 					unsigned char *pointeurDonnees = donneesImage->donneesRGB;
-					
+
 					/* Tout s'est bien passe jusqu'a present */
 					toutOK = true;
-					
+
 					for
 						(indexLigne = 0; (indexLigne < donneesImage->hauteurImage) && toutOK; ++indexLigne)
 					{
 						/* On recopie ligne a ligne les informations */
 						memcpy(scanline, pointeurDonnees, (unsigned int)(donneesImage->largeurImage*3));
 						pointeurDonnees += donneesImage->largeurImage*3;
-						
+
 						if
 							(fwrite(scanline, (unsigned int)tailleScanLine, 1, fichierBMP) != 1)
 						{
@@ -252,11 +252,11 @@ bool ecrisBMPRGB_Dans(DonneesImageRGB *donneesImage, char *nom)
 				}
 			}
 		}
-		
-		
+
+
 		/* Quoi qu'il arrive il faut fermer le fichier */
 		fclose(fichierBMP);
 	}
-	
+
 	return toutOK;
 }

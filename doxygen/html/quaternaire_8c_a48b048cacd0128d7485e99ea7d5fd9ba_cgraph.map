@@ -1,6 +1,6 @@
 <map id="zoomCouleur" name="zoomCouleur">
-<area shape="rect" id="node2" href="$prototype_8h.html#ad9b089f8ab718a8d2ff3f459b748ff74" title="Calcul la profondeur d&#39;un arbre. " alt="" coords="165,29,278,56"/>
-<area shape="rect" id="node3" href="$prototype_8h.html#a98566b8b5bd16a3dde718cea893609ca" title="Converti le k en nn. " alt="" coords="187,80,256,107"/>
-<area shape="rect" id="node4" href="$prototype_8h.html#a5715adb9973e14b37d0b6920cf12f782" title="Remplissage des matrices avec un arbre RGB. " alt="" coords="152,155,291,181"/>
-<area shape="rect" id="node5" href="$prototype_8h.html#a1827c61ee6b5102f8e991fa41290481a" title="Remplissage d&#39;une case des matrices RGB. " alt="" coords="339,155,507,181"/>
+<area shape="rect" id="node2" href="$quaternaire_8c.html#ad9b089f8ab718a8d2ff3f459b748ff74" title="Calcul la profondeur d&#39;un arbre. " alt="" coords="165,5,278,32"/>
+<area shape="rect" id="node3" href="$quaternaire_8c.html#a98566b8b5bd16a3dde718cea893609ca" title="Converti le k en nn. " alt="" coords="187,56,256,83"/>
+<area shape="rect" id="node4" href="$quaternaire_8c.html#a5715adb9973e14b37d0b6920cf12f782" title="Remplissage des matrices avec un arbre RGB. " alt="" coords="152,107,291,133"/>
+<area shape="rect" id="node5" href="$quaternaire_8c.html#a1827c61ee6b5102f8e991fa41290481a" title="Remplissage d&#39;une case des matrices RGB. " alt="" coords="339,107,507,133"/>
 </map>

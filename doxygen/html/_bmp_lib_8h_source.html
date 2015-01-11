@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<meta name="generator" content="Doxygen 1.8.5"/>
-<title>Projet - Traitement d&#39;une image BMP:  Fichier source de D:/Mes Documents/CIR3/Algo/miniprojet-arbre/BmpLib.h</title>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Projet - Traitement d&#39;une image BMP:  Fichier source de C:/Users/cbongiorno/Documents/Mes Documents/M1/Vision Industrielle/TD2-Traitement image/BmpLib.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -31,22 +31,23 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Projet - Traitement d&#39;une image BMP
-   &#160;<span id="projectnumber">0.5.0</span>
+   &#160;<span id="projectnumber">0.6.2</span>
    </div>
-   <div id="projectbrief">Bongiorno Charles Cir_3</div>
+   <div id="projectbrief">Bongiorno Charles M1</div>
   </td>
  </tr>
  </tbody>
 </table>
 </div>
 <!-- end header part -->
-<!-- Généré par Doxygen 1.8.5 -->
+<!-- Généré par Doxygen 1.8.8 -->
 <script type="text/javascript">
 var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="pages.html"><span>Pages&#160;associées</span></a></li>
       <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
       <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
       <li>
@@ -104,14 +105,14 @@ $(document).ready(function(){initNavTree('_bmp_lib_8h_source.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">D:/Mes Documents/CIR3/Algo/miniprojet-arbre/BmpLib.h</div>  </div>
+<div class="title">C:/Users/cbongiorno/Documents/Mes Documents/M1/Vision Industrielle/TD2-Traitement image/BmpLib.h</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a href="_bmp_lib_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* Veuillez reporter tout commentaire a ghislain.oudinet@isen.fr */</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef BMPLIB_H</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define BMPLIB_H</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#define BMPLIB_H</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/* Partie publique elaboree</span></div>
@@ -126,23 +127,23 @@ $(document).ready(function(){initNavTree('_bmp_lib_8h_source.html','');});
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;} <a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">/* Fonction s&#39;occupant de la liberation complete d&#39;une structure DonneesImageRGB */</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9">libereDonneesImageRGB</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> **structure);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_bmp_lib_8h.html#a84142edceda87c3a09dab077ab2b0ef9">libereDonneesImageRGB</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> **structure);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">/* Fonction essayant de lire le fichier passe en parametre, et renvoyant une structure</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">    contenant les informations de l&#39;image en cas de succes, NULL sinon */</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *<a class="code" href="_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e">lisBMPRGB</a>(<span class="keywordtype">char</span> *nom);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *<a class="code" href="_bmp_lib_8h.html#a88225a02f0f5ad840bd46145410bbb6e">lisBMPRGB</a>(<span class="keywordtype">char</span> *nom);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">/* Fonction ecrivant les informations de l&#39;image dans le fichier passe en parametre.</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">    Renvoie faux en cas de probleme, vrai sinon */</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="_bmp_lib_8c.html#abf1da9548a3aa2a96715f9b5fd7525ab">ecrisBMPRGB_Dans</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *donneesImage, <span class="keywordtype">char</span> *nom);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="_bmp_lib_8h.html#abf1da9548a3aa2a96715f9b5fd7525ab">ecrisBMPRGB_Dans</a>(<a class="code" href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a> *donneesImage, <span class="keywordtype">char</span> *nom);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="_bmp_lib_8c_html_abf1da9548a3aa2a96715f9b5fd7525ab"><div class="ttname"><a href="_bmp_lib_8c.html#abf1da9548a3aa2a96715f9b5fd7525ab">ecrisBMPRGB_Dans</a></div><div class="ttdeci">bool ecrisBMPRGB_Dans(DonneesImageRGB *donneesImage, char *nom)</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8c_source.html#l00177">BmpLib.c:177</a></div></div>
 <div class="ttc" id="struct_donnees_image_r_g_b_html_a6d14399e44586f5cccaf4e50122cd7e3"><div class="ttname"><a href="struct_donnees_image_r_g_b.html#a6d14399e44586f5cccaf4e50122cd7e3">DonneesImageRGB::donneesRGB</a></div><div class="ttdeci">unsigned char * donneesRGB</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8h_source.html#l00016">BmpLib.h:16</a></div></div>
 <div class="ttc" id="struct_donnees_image_r_g_b_html_a552bde5ac3af39a98c616c21d04eaa9c"><div class="ttname"><a href="struct_donnees_image_r_g_b.html#a552bde5ac3af39a98c616c21d04eaa9c">DonneesImageRGB::hauteurImage</a></div><div class="ttdeci">int hauteurImage</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8h_source.html#l00015">BmpLib.h:15</a></div></div>
 <div class="ttc" id="struct_donnees_image_r_g_b_html_abec644be857ad039bf21dbe4e025cd8e"><div class="ttname"><a href="struct_donnees_image_r_g_b.html#abec644be857ad039bf21dbe4e025cd8e">DonneesImageRGB::largeurImage</a></div><div class="ttdeci">int largeurImage</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8h_source.html#l00014">BmpLib.h:14</a></div></div>
-<div class="ttc" id="_bmp_lib_8c_html_a88225a02f0f5ad840bd46145410bbb6e"><div class="ttname"><a href="_bmp_lib_8c.html#a88225a02f0f5ad840bd46145410bbb6e">lisBMPRGB</a></div><div class="ttdeci">DonneesImageRGB * lisBMPRGB(char *nom)</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8c_source.html#l00045">BmpLib.c:45</a></div></div>
-<div class="ttc" id="_bmp_lib_8c_html_a84142edceda87c3a09dab077ab2b0ef9"><div class="ttname"><a href="_bmp_lib_8c.html#a84142edceda87c3a09dab077ab2b0ef9">libereDonneesImageRGB</a></div><div class="ttdeci">void libereDonneesImageRGB(DonneesImageRGB **structure)</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8c_source.html#l00022">BmpLib.c:22</a></div></div>
+<div class="ttc" id="_bmp_lib_8h_html_abf1da9548a3aa2a96715f9b5fd7525ab"><div class="ttname"><a href="_bmp_lib_8h.html#abf1da9548a3aa2a96715f9b5fd7525ab">ecrisBMPRGB_Dans</a></div><div class="ttdeci">bool ecrisBMPRGB_Dans(DonneesImageRGB *donneesImage, char *nom)</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8c_source.html#l00177">BmpLib.c:177</a></div></div>
+<div class="ttc" id="_bmp_lib_8h_html_a88225a02f0f5ad840bd46145410bbb6e"><div class="ttname"><a href="_bmp_lib_8h.html#a88225a02f0f5ad840bd46145410bbb6e">lisBMPRGB</a></div><div class="ttdeci">DonneesImageRGB * lisBMPRGB(char *nom)</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8c_source.html#l00045">BmpLib.c:45</a></div></div>
+<div class="ttc" id="_bmp_lib_8h_html_a84142edceda87c3a09dab077ab2b0ef9"><div class="ttname"><a href="_bmp_lib_8h.html#a84142edceda87c3a09dab077ab2b0ef9">libereDonneesImageRGB</a></div><div class="ttdeci">void libereDonneesImageRGB(DonneesImageRGB **structure)</div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8c_source.html#l00022">BmpLib.c:22</a></div></div>
 <div class="ttc" id="struct_donnees_image_r_g_b_html"><div class="ttname"><a href="struct_donnees_image_r_g_b.html">DonneesImageRGB</a></div><div class="ttdef"><b>Definition:</b> <a href="_bmp_lib_8h_source.html#l00012">BmpLib.h:12</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -150,9 +151,9 @@ $(document).ready(function(){initNavTree('_bmp_lib_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="_bmp_lib_8h.html">BmpLib.h</a></li>
-    <li class="footer">Généré le Dimanche Novembre 17 2013 19:05:09 pour Projet - Traitement d&#39;une image BMP par
+    <li class="footer">Généré le Mardi 11 Novembre 2014 10:23:55 pour Projet - Traitement d&#39;une image BMP par
     <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,6 @@
 <map id="creeationArbreNG" name="creeationArbreNG">
-<area shape="rect" id="node2" href="$prototype_8h.html#ab7f7c7557276f69edf708697150975a8" title="Allocation d&#39;un nœud de l&#39;arbre quaternaire NG. " alt="" coords="179,5,314,32"/>
-<area shape="rect" id="node3" href="$prototype_8h.html#a148b7bd50d305fad50ae008993a0fccb" title="Calcul la valeur médiane d&#39;un carré NG. " alt="" coords="363,81,485,108"/>
-<area shape="rect" id="node5" href="$prototype_8h.html#a187735c36c9b388930fdeae788f9d4d3" title="Vérifie si le carré est homogène NG. " alt="" coords="181,107,313,133"/>
-<area shape="rect" id="node4" href="$median_8c.html#a6f9266f5d5b1c83fdcd462d44e60f3e2" title="tri un tableau et retourne la valeur médiane " alt="" coords="533,81,608,108"/>
+<area shape="rect" id="node2" href="$quaternaire_8c.html#ab7f7c7557276f69edf708697150975a8" title="Allocation d&#39;un nœud de l&#39;arbre quaternaire NG. " alt="" coords="179,5,313,32"/>
+<area shape="rect" id="node3" href="$quaternaire_8c.html#a148b7bd50d305fad50ae008993a0fccb" title="Calcul la valeur médiane d&#39;un carré NG. " alt="" coords="361,81,484,108"/>
+<area shape="rect" id="node5" href="$quaternaire_8c.html#a187735c36c9b388930fdeae788f9d4d3" title="Vérifie si le carré est homogène NG. " alt="" coords="180,107,312,133"/>
+<area shape="rect" id="node4" href="$median_8c.html#a6f9266f5d5b1c83fdcd462d44e60f3e2" title="tri un tableau et retourne la valeur médiane " alt="" coords="532,81,607,108"/>
 </map>

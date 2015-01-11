@@ -1,4 +1,3 @@
 <map id="creationMatriceNB" name="creationMatriceNB">
-<area shape="rect" id="node2" href="$prototype_8h.html#a4d6a727b3144c018d370a0158991fd71" title="Remplissage matrice avec la couleur médiane. " alt="" coords="363,6,504,33"/>
-<area shape="rect" id="node3" href="$prototype_8h.html#a150d4fde63a110e7865ebfccfd5045d2" title="Remplissage d&#39;une matrice à partir d&#39;un arbre quaternaire NB. " alt="" coords="185,44,314,70"/>
+<area shape="rect" id="node2" href="$quaternaire_8c.html#a4d6a727b3144c018d370a0158991fd71" title="Remplissage matrice avec la couleur médiane. " alt="" coords="183,5,324,32"/>
 </map>

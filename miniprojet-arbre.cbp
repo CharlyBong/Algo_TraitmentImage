@@ -42,7 +42,16 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="OutilsLib.h" />
-		<Unit filename="doxy.c">
+		<Unit filename="doxycir3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="doxym1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="doxymain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filtres.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main.c">
@@ -56,6 +65,9 @@
 		</Unit>
 		<Unit filename="prototype.h" />
 		<Unit filename="quaternaire.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="transfnb.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

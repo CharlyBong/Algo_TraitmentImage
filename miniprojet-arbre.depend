@@ -57,3 +57,61 @@
 
 1384677278 source:d:\mes documents\cir3\algo\miniprojet-arbre\doxy.c
 
+1415546491 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\bmplib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"BmpLib.h"
+	"OutilsLib.h"
+
+1381841516 c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\bmplib.h
+	<stdbool.h>
+
+1381841513 c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\outilslib.h
+
+1415543592 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\caldist.c
+	"prototype.h"
+
+1415654404 c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\prototype.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<unistd.h>
+	<time.h>
+	<string.h>
+	<windows.h>
+	"BmpLib.h"
+	"OutilsLib.h"
+
+1415457857 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\doxy.c
+
+1415697772 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\main.c
+	"prototype.h"
+
+1384710205 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\median.c
+	"prototype.h"
+
+1381841513 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\outilslib.c
+	"OutilsLib.h"
+	<stdbool.h>
+
+1384710162 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\partie1.c
+	"prototype.h"
+
+1384710399 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\quaternaire.c
+	"prototype.h"
+
+1415546144 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\transfnb.c
+	"prototype.h"
+
+1415545950 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\filtres.c
+	"prototype.h"
+
+1415462318 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\doxy2.c
+
+1415535498 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\doxycir3.c
+
+1415545223 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\doxym1.c
+
+1415535514 source:c:\users\cbongiorno\documents\mes documents\m1\vision industrielle\td2-traitement image\doxymain.c
+

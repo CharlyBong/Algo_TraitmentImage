@@ -1,5 +1,5 @@
 <map id="creeMatriceNG" name="creeMatriceNG">
 <area shape="rect" id="node2" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg. " alt="" coords="168,5,288,32"/>
-<area shape="rect" id="node3" href="$prototype_8h.html#aad44154524c9c77b432cb6cf52c7acf4" title="Remplissage de la matrice avec un arbre NG. " alt="" coords="163,80,293,107"/>
-<area shape="rect" id="node4" href="$prototype_8h.html#a1e1d02ab87953add75ff8ebf2e627875" title="Remplissage d&#39;une case de la matrice NG. " alt="" coords="341,80,501,107"/>
+<area shape="rect" id="node3" href="$quaternaire_8c.html#aad44154524c9c77b432cb6cf52c7acf4" title="Remplissage de la matrice avec un arbre NG. " alt="" coords="163,56,293,83"/>
+<area shape="rect" id="node4" href="$quaternaire_8c.html#a1e1d02ab87953add75ff8ebf2e627875" title="Remplissage d&#39;une case de la matrice NG. " alt="" coords="341,56,501,83"/>
 </map>

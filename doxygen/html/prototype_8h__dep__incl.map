@@ -1,7 +1,9 @@
-<map id="D:/Mes Documents/CIR3/Algo/miniprojet&#45;arbre/prototype.h" name="D:/Mes Documents/CIR3/Algo/miniprojet&#45;arbre/prototype.h">
-<area shape="rect" id="node2" href="$_caldist_8c.html" title="Partie Calcul distance. " alt="" coords="5,109,171,165"/>
-<area shape="rect" id="node3" href="$main_8c.html" title="Main du programme. " alt="" coords="195,109,361,165"/>
-<area shape="rect" id="node4" href="$median_8c.html" title="Partie sur les couleurs médianes. " alt="" coords="386,109,552,165"/>
-<area shape="rect" id="node5" href="$partie1_8c.html" title="Fonctions de base pour les matrices. " alt="" coords="577,109,743,165"/>
-<area shape="rect" id="node6" href="$quaternaire_8c.html" title="Partie sur les arbres quaternaires. " alt="" coords="767,109,933,165"/>
+<map id="C:/Users/cbongiorno/Documents/Mes Documents/M1/Vision Industrielle/TD2&#45;Traitement image/prototype.h" name="C:/Users/cbongiorno/Documents/Mes Documents/M1/Vision Industrielle/TD2&#45;Traitement image/prototype.h">
+<area shape="rect" id="node2" href="$_caldist_8c.html" title="Partie Calcul distance. " alt="" coords="5,124,213,195"/>
+<area shape="rect" id="node3" href="$filtres_8c.html" title="Fonctions de filtrages d&#39;image (v2) " alt="" coords="238,124,437,195"/>
+<area shape="rect" id="node4" href="$main_8c.html" title="Main du programme. " alt="" coords="461,124,657,195"/>
+<area shape="rect" id="node5" href="$median_8c.html" title="Partie sur les couleurs médianes. " alt="" coords="681,124,892,195"/>
+<area shape="rect" id="node6" href="$partie1_8c.html" title="Fonctions de base pour les matrices. " alt="" coords="917,124,1123,195"/>
+<area shape="rect" id="node7" href="$quaternaire_8c.html" title="Partie sur les arbres quaternaires. " alt="" coords="1148,124,1380,195"/>
+<area shape="rect" id="node8" href="$transfnb_8c.html" title="Fonctions de transformation d&#39;une image en NB (v2) " alt="" coords="1405,124,1619,195"/>
 </map>

@@ -1,5 +1,4 @@
 <map id="creeationArbreNB" name="creeationArbreNB">
-<area shape="rect" id="node2" href="$prototype_8h.html#a325bf257558a093ac6ceef33042c4554" title="Allocation d&#39;un nœud de l&#39;arbre. " alt="" coords="352,6,485,33"/>
-<area shape="rect" id="node4" href="$prototype_8h.html#a21c86de2b1eb908399e18ea7d445c4fb" title="Création d&#39;un nœud de l&#39;arbre. " alt="" coords="179,44,303,70"/>
-<area shape="rect" id="node3" href="$prototype_8h.html#ac337e0476780ba4e5236a1d56ad8fd53" title="Calcul valeur médiane carre NB. " alt="" coords="534,6,621,33"/>
+<area shape="rect" id="node2" href="$quaternaire_8c.html#a325bf257558a093ac6ceef33042c4554" title="Allocation d&#39;un nœud de l&#39;arbre. " alt="" coords="177,5,311,32"/>
+<area shape="rect" id="node3" href="$quaternaire_8c.html#ac337e0476780ba4e5236a1d56ad8fd53" title="Calcul valeur médiane carre NB. " alt="" coords="359,5,445,32"/>
 </map>

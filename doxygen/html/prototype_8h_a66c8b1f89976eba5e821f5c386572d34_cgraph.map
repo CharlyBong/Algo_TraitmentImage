@@ -1,0 +1,6 @@
+<map id="filtreMedian" name="filtreMedian">
+<area shape="rect" id="node2" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg. " alt="" coords="371,5,491,32"/>
+<area shape="rect" id="node3" href="$filtres_8c.html#a01c624b3c74736d629fc159e5e0838f4" title="Effectue le lissage d&#39;une matrice NG avec un outil de taille variable. " alt="" coords="141,56,301,83"/>
+<area shape="rect" id="node4" href="$filtres_8c.html#a88bbf18f4831db47042c26c374f1fd58" title="Calcul de la médiane pour une case NG avec un outil de taille variable. " alt="" coords="349,56,512,83"/>
+<area shape="rect" id="node5" href="$median_8c.html#a6f9266f5d5b1c83fdcd462d44e60f3e2" title="tri un tableau et retourne la valeur médiane " alt="" coords="560,56,635,83"/>
+</map>

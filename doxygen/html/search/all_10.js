@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['tousleszoomscouleur',['tousLesZoomsCouleur',['../prototype_8h.html#a1d1e77f95b9ad72f9f8059a412ee8365',1,'tousLesZoomsCouleur(abquat *arbre, short int **matriceR, short int **matriceG, short int **matriceB, char *nom_fichier):&#160;quaternaire.c'],['../quaternaire_8c.html#a1d1e77f95b9ad72f9f8059a412ee8365',1,'tousLesZoomsCouleur(abquat *arbre, short int **matriceR, short int **matriceG, short int **matriceB, char *nom_fichier):&#160;quaternaire.c']]],
+  ['tousleszoomsng',['tousLesZoomsNG',['../prototype_8h.html#ad8bb52314936ad1d1ad641c305d7792d',1,'tousLesZoomsNG(abquat *arbre, short int **matrice, char *nom_fichier):&#160;quaternaire.c'],['../quaternaire_8c.html#ad8bb52314936ad1d1ad641c305d7792d',1,'tousLesZoomsNG(abquat *arbre, short int **matrice, char *nom_fichier):&#160;quaternaire.c']]],
+  ['transfnb_2ec',['transfnb.c',['../transfnb_8c.html',1,'']]],
+  ['triallocationmatrice',['triallocationMatrice',['../partie1_8c.html#a549b6bbc6d75e93a55e9074a52b5ae2e',1,'triallocationMatrice(short int **matriceR, short int **matriceG, short int **matriceB, int haut, int larg):&#160;partie1.c'],['../prototype_8h.html#a549b6bbc6d75e93a55e9074a52b5ae2e',1,'triallocationMatrice(short int **matriceR, short int **matriceG, short int **matriceB, int haut, int larg):&#160;partie1.c']]],
+  ['tritableau',['tritableau',['../median_8c.html#a6f9266f5d5b1c83fdcd462d44e60f3e2',1,'tritableau(short int *table, int taille):&#160;median.c'],['../prototype_8h.html#a6f9266f5d5b1c83fdcd462d44e60f3e2',1,'tritableau(short int *table, int taille):&#160;median.c']]]
+];

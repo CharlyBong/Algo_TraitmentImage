@@ -1,0 +1,5 @@
+<map id="quantificationnb" name="quantificationnb">
+<area shape="rect" id="node2" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg. " alt="" coords="169,5,289,32"/>
+<area shape="rect" id="node3" href="$transfnb_8c.html#a288139c15b77cb33be8ea40b2c4559e0" title="Donne la nouvelle couleurs du pixel par rapport au niveau du palier. " alt="" coords="167,56,291,83"/>
+<area shape="rect" id="node4" href="$transfnb_8c.html#a800fc7ad2cc7ef439487f31be7f75d10" title="Donne le niveau du palier sur lequel le pixel se trouve. " alt="" coords="165,107,292,133"/>
+</map>

@@ -1,7 +1,7 @@
 <map id="creationMatriceCaseNG" name="creationMatriceCaseNG">
-<area shape="rect" id="node2" href="$quaternaire_8c.html#aad44154524c9c77b432cb6cf52c7acf4" title="Remplissage de la matrice avec un arbre NG. " alt="" coords="213,29,344,56"/>
-<area shape="rect" id="node3" href="$quaternaire_8c.html#a0fa6731f07927f703cf1c488d79c2cb6" title="Fonction d&#39;appel de conversion arbre &#45;&gt; matrice NG. " alt="" coords="392,29,501,56"/>
-<area shape="rect" id="node4" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main du programme. " alt="" coords="848,55,899,81"/>
-<area shape="rect" id="node5" href="$quaternaire_8c.html#a3ebbb6278c797c3e72b00c179732e433" title="Effectue le zoom sur un arbre NG. " alt="" coords="550,55,623,81"/>
-<area shape="rect" id="node6" href="$quaternaire_8c.html#ad8bb52314936ad1d1ad641c305d7792d" title="Réalise tout les niveau de zoom d&#39;un arbre NG. " alt="" coords="673,105,799,132"/>
+<area shape="rect" id="node2" href="$quaternaire_8c.html#aad44154524c9c77b432cb6cf52c7acf4" title="Remplissage de la matrice avec un arbre NG. " alt="" coords="213,5,344,32"/>
+<area shape="rect" id="node3" href="$quaternaire_8c.html#a0fa6731f07927f703cf1c488d79c2cb6" title="Fonction d&#39;appel de conversion arbre &#45;&gt; matrice NG. " alt="" coords="392,5,501,32"/>
+<area shape="rect" id="node4" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main du programme. " alt="" coords="845,31,896,57"/>
+<area shape="rect" id="node5" href="$quaternaire_8c.html#a3ebbb6278c797c3e72b00c179732e433" title="Effectue le zoom sur un arbre NG. " alt="" coords="549,31,623,57"/>
+<area shape="rect" id="node6" href="$quaternaire_8c.html#ad8bb52314936ad1d1ad641c305d7792d" title="Réalise tout les niveau de zoom d&#39;un arbre NG. " alt="" coords="671,81,797,108"/>
 </map>

@@ -1,9 +1,13 @@
 <map id="tritableau" name="tritableau">
-<area shape="rect" id="node2" href="$prototype_8h.html#a7db927593bdd67306470b9e7bc1ebb3f" title="Calcul de la médiane pour une case NG. " alt="" coords="131,5,247,32"/>
-<area shape="rect" id="node5" href="$quaternaire_8c.html#a148b7bd50d305fad50ae008993a0fccb" title="Calcul la valeur médiane d&#39;un carré NG. " alt="" coords="128,56,251,83"/>
-<area shape="rect" id="node3" href="$prototype_8h.html#a7bb93f34ab63a156302ff19299d7f3ae" title="Effectue le lissage d&#39;une matrice NG. " alt="" coords="486,5,599,32"/>
-<area shape="rect" id="node4" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main du programme. " alt="" coords="800,40,851,67"/>
-<area shape="rect" id="node6" href="$quaternaire_8c.html#a187735c36c9b388930fdeae788f9d4d3" title="Vérifie si le carré est homogène NG. " alt="" coords="299,56,431,83"/>
-<area shape="rect" id="node7" href="$quaternaire_8c.html#a008a2eb8c5586e1a49dac2e6f37bd2d1" title="Création d&#39;un nœud de l&#39;arbre quaternaire NG. " alt="" coords="480,80,605,107"/>
-<area shape="rect" id="node8" href="$quaternaire_8c.html#a80c7e96deac0699503dec245e2131975" title="fonction d&#39;appel de création de l&#39;arbre NG " alt="" coords="654,68,751,95"/>
+<area shape="rect" id="node2" href="$prototype_8h.html#a88bbf18f4831db47042c26c374f1fd58" title="Calcul de la médiane pour une case NG avec un outil de taille variable. " alt="" coords="128,56,291,83"/>
+<area shape="rect" id="node7" href="$prototype_8h.html#a7db927593bdd67306470b9e7bc1ebb3f" title="Calcul de la médiane pour une case NG. " alt="" coords="361,107,477,133"/>
+<area shape="rect" id="node9" href="$quaternaire_8c.html#a148b7bd50d305fad50ae008993a0fccb" title="Calcul la valeur médiane d&#39;un carré NG. " alt="" coords="148,157,271,184"/>
+<area shape="rect" id="node3" href="$prototype_8h.html#a01c624b3c74736d629fc159e5e0838f4" title="Effectue le lissage d&#39;une matrice NG avec un outil de taille variable. " alt="" coords="339,56,499,83"/>
+<area shape="rect" id="node4" href="$prototype_8h.html#abbbcc759563e1b9cde1b08363ba74cb8" title="Outil de test, permettant d&#39;effectuer un filtre avec un outil qui de devrait pas modifier l&#39;image..." alt="" coords="576,5,643,32"/>
+<area shape="rect" id="node5" href="$prototype_8h.html#a66c8b1f89976eba5e821f5c386572d34" title="Outil de filtrage médian. " alt="" coords="725,56,813,83"/>
+<area shape="rect" id="node6" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main du programme. " alt="" coords="865,107,916,133"/>
+<area shape="rect" id="node8" href="$prototype_8h.html#a7bb93f34ab63a156302ff19299d7f3ae" title="Effectue le lissage d&#39;une matrice NG. " alt="" coords="553,107,666,133"/>
+<area shape="rect" id="node10" href="$quaternaire_8c.html#a187735c36c9b388930fdeae788f9d4d3" title="Vérifie si le carré est homogène NG. " alt="" coords="353,157,485,184"/>
+<area shape="rect" id="node11" href="$quaternaire_8c.html#a008a2eb8c5586e1a49dac2e6f37bd2d1" title="Création d&#39;un nœud de l&#39;arbre quaternaire NG. " alt="" coords="547,157,672,184"/>
+<area shape="rect" id="node12" href="$quaternaire_8c.html#a80c7e96deac0699503dec245e2131975" title="fonction d&#39;appel de création de l&#39;arbre NG " alt="" coords="720,157,817,184"/>
 </map>

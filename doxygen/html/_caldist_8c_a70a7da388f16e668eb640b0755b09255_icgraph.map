@@ -1,0 +1,8 @@
+<map id="maximun" name="maximun">
+<area shape="rect" id="node2" href="$prototype_8h.html#abd278d2e0312f40a659ad8b3fc134569" title="Calcul le maximum dans un tableau. " alt="" coords="128,31,224,57"/>
+<area shape="rect" id="node3" href="$prototype_8h.html#a34cb964e90c76c1fee8f98999589ebcb" title="Effectue une dilatation sur une case de la matrice sur une dimension variable. " alt="" coords="272,31,376,57"/>
+<area shape="rect" id="node4" href="$prototype_8h.html#a74f1cee58a0cba69e6279032f98b1aad" title="Effectue un gradient sur une case de la matrice sur une dimension variable. " alt="" coords="424,5,523,32"/>
+<area shape="rect" id="node7" href="$prototype_8h.html#a6f751ddca5503443e6f1667ae4f1895c" title="Effectue une dilatation sur une image avec un outil de dimension variable. " alt="" coords="571,56,671,83"/>
+<area shape="rect" id="node5" href="$prototype_8h.html#adc93fe086109c5c8b7c2c4f3848b0c96" title="Effectue un gradient sur une image avec un outil de dimension variable. " alt="" coords="573,5,668,32"/>
+<area shape="rect" id="node6" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main du programme. " alt="" coords="719,31,769,57"/>
+</map>

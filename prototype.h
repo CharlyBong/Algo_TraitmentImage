@@ -28,11 +28,11 @@
 */
 #define EPSILON 5
 
-/*!13
+/*!
   \def DEBUG
   Commande de débuggage du programme (0 -> pas d'affichage)
 */
-#define DEBUG 5
+#define DEBUG 0
 // 0 pour pas de debug
 
 #endif // PROTOTYPE_H_INCLUDED
@@ -66,7 +66,7 @@ typedef struct abquat{
 
 
 //main.c
-void choixMenu(char* nom_fichier);
+void choixMenu(char* nom_fichier, int sousmenu);
 
 //partie1.c
 void cree3matrices(DonneesImageRGB *img,short int **matriceR,short int **matriceG,short int **matriceB);
@@ -129,8 +129,44 @@ void tousLesZoomsNG(abquat* arbre,short int** matrice,char* nom_fichier);
 short int ** calculDistance(short int ** matriceOrgine, int haut, int larg);
 short int ** copieMatrice(short int ** matriceOrgine, int haut, int larg);
 short int minimun(short int nb1,short int nb2);
+short int maximun(short int nb1,short int nb2);
 short int minimun4(short int nb1,short int nb2,short int nb3,short int nb4);
 short int minimun5(short int nb1,short int nb2,short int nb3,short int nb4,short int nb5);
+short int minimunTab(short int * tab,int dim);
+short int maximunTab(short int * tab,int dim);
 short int ** fctCalculDistance(short int ** matriceOrgine, int haut, int larg);
+
+//transfnd.c
+
+short int **histogrammenb(short int **matrice, int haut, int larg);
+void statistiquenb(short int **matrice, int haut, int larg);
+short int ** quantificationnb(short int **matrice, int haut, int larg, int niveau);
+short int ** echantillonnagenb(short int **matrice, int haut, int larg, int niveau);
+int getNiveauByPalier(int palier, int pixel);
+int getColorByNiveau(int palier, int niveau, int pixel);
+
+//filtres.c
+
+short int convolutionCase(short int **image, short int **outil, int dimoutil, bool div);
+short int ** convolution(short int **matrice, int haut, int larg, short int **outil, int dimoutil,bool div);
+short int ** filtrenop(short int **matrice, int haut, int larg);
+short int ** filtreMedian(short int **matrice, int haut, int larg);
+short int ** filtrePondMoy(short int **matrice, int haut, int larg);
+short int ** filtrePondGauss(short int **matrice, int haut, int larg);
+short int ** filtreGraRoberts(short int **matrice, int haut, int larg);
+short int ** filtreGraPrewitt(short int **matrice, int haut, int larg);
+short int ** filtreGraSobel(short int **matrice, int haut, int larg);
+short int ** filtreLaplacien(short int **matrice, int haut, int larg);
+short int ** medianGrisNxNVariable(short int **matrice, int haut, int larg, short int **outil, int dimoutil);
+short int medianGriscaseVariable(short int **matrice,int x, int y,short int **outil, int dimoutil);
+short int dilatationCase(short int **matrice, int dimoutil);
+short int erosionCase(short int **matrice, int dimoutil);
+short int gradientCase(short int **matrice, int dimoutil);
+short int ** filtreDilatation(short int **matrice, int haut, int larg, int dimoutil);
+short int ** filtreErosion(short int **matrice, int haut, int larg, int dimoutil);
+short int ** filtreGradient(short int **matrice, int haut, int larg, int dimoutil);
+
+
+
 
 

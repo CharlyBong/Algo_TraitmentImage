@@ -1,0 +1,6 @@
+<map id="filtrePondGauss" name="filtrePondGauss">
+<area shape="rect" id="node2" href="$partie1_8c.html#a74146446548f74f43dcabaeea7b55493" title="Retour une matrice de dimension haut * larg. " alt="" coords="303,5,423,32"/>
+<area shape="rect" id="node3" href="$filtres_8c.html#ae5299087eb8255b465ad8db59f6e4839" title="Effectue une convolution sur une image, à partir d&#39;un outil de dimension variable le boolen div indiq..." alt="" coords="168,56,255,83"/>
+<area shape="rect" id="node4" href="$filtres_8c.html#adf784ef535b95a1f87bcb466b44fb200" title="Effectue une convolution sur une case d&#39;une image, à partir d&#39;un outil de dimension variable le boole..." alt="" coords="305,56,421,83"/>
+<area shape="rect" id="node5" href="$partie1_8c.html#a106518d4a41c16e3a633d2963200b919" title="Libération d&#39;une matrice. " alt="" coords="304,107,421,133"/>
+</map>
